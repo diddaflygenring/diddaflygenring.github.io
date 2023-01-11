@@ -124,7 +124,6 @@ body {
     margin-right: 12%;
   }
 }
-
 @media screen and (max-width: 800px) {
   .row {
     display: flex;
@@ -165,6 +164,7 @@ body {
 }
 .imag {
   padding-top: 15px;
+  position: relative;
 }
 .first {
   padding-top: 35px;
