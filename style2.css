@@ -115,6 +115,24 @@ body {
   margin-right: 20.5px;
   padding-bottom: 80px;
 }
+@media screen and (min-width: 1600px) {
+  .row {
+    display: flex;
+    position: relative;
+    left: 3%;
+    float: left;
+    width: 1005.5px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .content {
+    position: relative;
+    left: 3%;
+    padding-left: 10px;
+    width: 1000px;
+  }
+}
+@media screen and (min-width: 1600px) {img {width: auto;}}
 
 @media screen and (min-width: 801px) {
   .row {
