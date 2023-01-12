@@ -184,7 +184,7 @@ body {
   #bus {
     top: 31px;
     position: relative;
-    width: 78%;
+    width: 73%;
   }
 }
 @media screen and (max-width: 800px) {
