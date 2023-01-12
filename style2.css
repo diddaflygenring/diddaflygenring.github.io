@@ -153,6 +153,7 @@ body {
     flex: 50%;
     padding-left: 15px;
     position: relative;
+    float: left;
   }
 }
 
