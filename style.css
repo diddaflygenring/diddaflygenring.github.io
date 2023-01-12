@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
 .titlar {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -93,7 +91,7 @@ body {
   margin-top: 0px;
   margin-left: 20.5px;
   margin-right: 20.5px;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
 
 .column img {
@@ -102,12 +100,6 @@ body {
 
 .column img:hover {
   opacity: 0.8;
-}
-
-.foam {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #gardina {
@@ -139,24 +131,36 @@ body {
   float: block;
   position: relative;
 }
+
+#foam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: block;
+}
+
 @media screen and (min-width: 800px) {
-  .foam {
-    top: 26%;
-    position: relative;
+  #foam { top: 10px;
   }
 }
 @media screen and (max-width: 800px) {
-  .foam {
-    top: 26%;
+  #foam {
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
-  .foam {
-    top: 5%;
+  #foam {
     position: relative;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #empty {
+    display: none;
+    height: 1px;
+  }
+}
+
 @media screen and (min-width: 800px) {
   #specimen {
     top: 2%;
@@ -171,7 +175,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   #specimen {
-    top: 35px;
+    margin-top: 70px;
     position: relative;
   }
 }
@@ -186,7 +190,7 @@ body {
 @media screen and (max-width: 800px) {
   #bus {
     width: 70%;
-    top: 4%;
+    top: 50px;
     position: relative;
   }
 }
@@ -205,20 +209,19 @@ body {
   }
 }
 @media screen and (min-width: 800px) {
-  #ethics{
+  #ethics {
     top: 48px;
-                     position: relative;
+    position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #ethics {
     top: 48px;
-                     position: relative;
+    position: relative;
   }
 }
 @media screen and (max-width: 600px) {
-  #ethics {
-    top: 40px;
+  #ethics { top: 1px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -226,7 +229,6 @@ body {
     top: 0px;
   }
 }
-
 
 @media screen and (min-width: 800px) {
   #gardina {
@@ -237,13 +239,13 @@ body {
 }
 @media screen and (max-width: 800px) {
   #gardina {
-    top: 104px;
+    top: 100px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #gardina {
-    top: 6%;
+    top: 70px;
     position: relative;
   }
 }
@@ -256,31 +258,31 @@ body {
 @media screen and (max-width: 800px) {
   #pandemic {
     position: relative;
-    top: 10%;
+    top: 110px;
   }
 }
 @media screen and (max-width: 600px) {
   #pandemic {
     position: relative;
-    top: 8%;
+    top: 80px;
   }
 }
 @media screen and (min-width: 800px) {
   #helgi {
     top: 110px;
-                     position: relative;
+    position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #helgi {
-    top: 10.5%;
-                     position: relative;
+    top: 120px;
+    position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #helgi {
     position: relative;
-    top: 10%;
+    top: 90px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -325,60 +327,60 @@ body {
 @media screen and (min-width: 800px) {
   #sund {
     position: relative;
-    top: 27%;
+    top: 20px;
   }
 }
 @media screen and (max-width: 800px) {
   #sund {
-    top: 26%;
+    top: 20px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #sund {
-    top: 6%;
+    top: 10px;
     position: relative;
   }
 }
 @media screen and (min-width: 800px) {
   #thesis {
-    top: 28%;
+    top: 20px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #thesis {
-    top: 26%;
+    top: 35px;
   }
 }
 @media screen and (max-width: 600px) {
   #thesis {
-    top: 6%;
+    margin-top: 25px;
     position: relative;
   }
 }
 @media screen and (max-width: 400px) {
   #thesis {
-    top: 15px;
+    top: 25px;
     position: relative;
   }
 }
 @media screen and (min-width: 800px) {
   #sewn {
     top: 70px;
-                      position: relative;
+    position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #sewn {
     top: 70px;
-                      position: relative;
+    position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #sewn {
-    top: 3%;
-                      position: relative;
+    top: 55px;
+    position: relative;
   }
 }
 @media screen and (max-width: 400px) {
@@ -390,7 +392,7 @@ body {
 
 @media screen and (min-width: 800px) {
   #yearbook {
-    top: 6%;
+    top: 60px;
     position: relative;
   }
 }
@@ -403,12 +405,12 @@ body {
 
 @media screen and (min-width: 800px) {
   #pixels {
-    top: 7.5%;
+    top: 73px;
   }
 }
 @media screen and (max-width: 800px) {
   #pixels {
-    top: 3%;
+    top: 30px;
   }
 }
 
@@ -464,36 +466,35 @@ body {
   }
 }
 @media screen and (min-width: 800px) {
-  .biblio {
+  #biblio {
     float: right;
-    float: block;
     position: relative;
     right: 26%;
-    top: 6.5%;
+    margin-top: 42px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .biblio {
+  #biblio {
     -ms-flex: 160%;
     flex: 160%;
     max-width: 160%;
     padding: 0 0px;
     right: 81%;
-    top: 60px;
+    margin-top: 55px;
     position: relative;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .biblio {
+  #biblio {
     -ms-flex: 100%;
+    -webkit-flex: 100%;
     flex: 100%;
     max-width: 100%;
     padding: 10 0px;
     right: 0px;
-    top: 4%;
-    position: relative;
+    margin-top: 1px;
   }
 }
 
