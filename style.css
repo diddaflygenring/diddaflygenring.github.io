@@ -258,13 +258,13 @@ body {
 @media screen and (max-width: 800px) {
   #gardina {
     position: relative;
-    top: 110px;
+    top: 100px;
   }
 }
 @media screen and (max-width: 600px) {
   #gardina {
     position: relative;
-    top: 80px;
+    top: 75px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -275,7 +275,7 @@ body {
 }
 @media screen and (max-width: 800px) {
   #helgi {
-    top: 120px;
+    top: 130px;
     position: relative;
   }
 }
