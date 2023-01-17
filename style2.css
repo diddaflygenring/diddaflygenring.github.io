@@ -186,6 +186,10 @@ body {
   padding-top: 15px;
   position: relative;
 }
+.imag2 {
+  position: relative;
+  display: block;
+}
 .first {
   padding-top: 35px;
 }
