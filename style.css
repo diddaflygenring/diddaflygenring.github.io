@@ -76,7 +76,7 @@ img {visibility: visible;}
 
 }
  
-@media screen and (max-width: 400px) {input {display: none;}}
+@media screen and (max-width: 490px) {input {display: none;}}
 
 .column img:hover {
   filter: opacity(80%)
