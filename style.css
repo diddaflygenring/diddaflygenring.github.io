@@ -1,3 +1,4 @@
+
 #everything {filter: contrast(100%) grayscale(0%) brightness(100%)}
 #video {filter: contrast(1000%) grayscale(100%) brightness(600%)}
 #illustrations {filter: contrast(1000%) grayscale(100%) brightness(600%)}
@@ -9,8 +10,6 @@
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
-
-
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -58,6 +57,7 @@
 }
 
 }
+
 * {
   box-sizing: border-box;
 }
@@ -69,12 +69,17 @@ body {
   padding-bottom: 100px;
 }
 
+img {visibility: visible;}
+
 .column img {
   margin-top: 37px;
+
 }
+ 
+@media screen and (max-width: 400px) {input {display: none;}}
 
 .column img:hover {
-  opacity: 0.8;
+  filter: opacity(80%)
 }
 
 #pandemic {
@@ -115,7 +120,8 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-  #foam { top: 10px;
+  #foam {
+    top: 10px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -196,7 +202,8 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
-  #ethics { top: 1px;
+  #ethics {
+    top: 1px;
   }
 }
 @media screen and (max-width: 400px) {
