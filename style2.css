@@ -57,6 +57,9 @@ a:hover {
 .topnav a.active2 {
   float: right;
   color: black;
+  padding-left: 10px;}
+
+#info {
   text-decoration: underline;}
 
 .topnav a.active {
