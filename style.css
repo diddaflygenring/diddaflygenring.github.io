@@ -1,7 +1,7 @@
 
 #everything {filter: contrast(100%) grayscale(0%) brightness(100%)}
 #video {filter: contrast(1000%) grayscale(100%) brightness(600%)}
-#illustrations {filter: contrast(1000%) grayscale(100%) brightness(600%)}
+#illustrations {filter: grayscale(100%) contrast(200%)}
 #graphic {filter: contrast(1000%) grayscale(100%) brightness(600%)}
 
 #everything:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
