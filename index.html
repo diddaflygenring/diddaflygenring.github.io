@@ -19,7 +19,7 @@
   <a class="active" id="didda">Didda Flygenring</a>
   <a href="info.html" class="split">info</a> 
   <script> 
-   function illustrations(){
+    function illustrations(){
     document.getElementById('yearbook').style.opacity = '0.2';
       document.getElementById('bus').style.opacity = '0.2';
     document.getElementById('ethics').style.opacity = '0.2';
@@ -120,7 +120,7 @@
     var is_clicked1 = false;
     var is_clicked2 = false;
     var is_clicked3 = false;
-    var is_clicked4 = false;
+    var is_clicked4 = true;
 
 function mouseOver1() {
   document.getElementById("video").style.filter = 'contrast(100%) grayscale(0%) brightness(100%)';
@@ -134,7 +134,7 @@ function mouseOut1() {
 }
 
 function mouseOut() {
-  if(!is_clicked4) document.getElementById("everything").style.filter = 'contrast(1000%) grayscale(100%) brightness(600%)';
+if(!is_clicked4) document.getElementById("everything").style.filter = 'contrast(1000%) grayscale(100%) brightness(600%)';
 }
     function mouseOver3() {
    document.getElementById("illustrations").style.filter = 'contrast(100%) grayscale(0%) brightness(100%)';
