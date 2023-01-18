@@ -27,59 +27,41 @@ a:hover {
   font-size: 14px;
 }
 
+
 .topnav {
   overflow: hidden;
-  background-color: #ffffffff;
-  margin-right: 39px;
-}
-
-.topnav a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 23px 6px 0px;
-  text-decoration: none;
-}
-
-.topnav a.active {
-  text-decoration: underline;
+  background-color: #ffffff; 
+  margin-left: 50px;
+  margin-right: 70px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
-.topnav .icon {
-  display: none;
-}
-
-.topnav2 a {
+.topnav a {
   float: left;
-  display: block;
   color: black;
   text-align: center;
-  padding: 23px 0px 10px;
-  margin-left: 50px;
+  padding-top: 23px;
   text-decoration: none;
 }
+
 .topnav a:hover {
   text-decoration: underline;
 }
 
-.topnav2 a:hover {
-  text-decoration: underline;
+.topnav a.split {
+  float: right;
+  color: black;
 }
 
-.topnav2 a.active {
-  text-decoration: underline;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-}
+.topnav a.active2 {
+  float: right;
+  color: black;
+  text-decoration: underline;}
 
-@media screen and (max-width: 700px) {
-  .topnav2 a:not(:first-child) {
-    display: none;
-  }
-}
+.topnav a.active {
+  text-decoration: underline;}
+
 
 @media screen and (max-width: 700px) {
   .topnav.responsive {
@@ -95,17 +77,7 @@ a:hover {
 @media screen and (max-width: 400px) {
   .topnav.responsive {
     position: relative;
-  }
-  .topnav2 a {
-    float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 23px 0px 10px;
-  margin-left: 20px;
-  text-decoration: none;
-  }
-}
+  } }
 * {
   box-sizing: border-box;
 }
