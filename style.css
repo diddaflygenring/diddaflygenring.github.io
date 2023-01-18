@@ -4,6 +4,12 @@
 #illustrations {filter: contrast(1000%) grayscale(100%) brightness(600%)}
 #graphic {filter: contrast(1000%) grayscale(100%) brightness(600%)}
 
+#everything:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
+#video:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
+#illustrations:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
+#graphic:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
+
+
 .icon {margin-top: 23px; float: right; margin-right: 20px;}
 
 .titlar {
