@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
 #everything {filter: contrast(100%) grayscale(0%) brightness(100%)}
 #video {filter: contrast(1000%) grayscale(100%) brightness(600%)}
 #illustrations {filter: grayscale(100%) contrast(200%)}
@@ -11,13 +9,15 @@
 #illustrations:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
 #graphic:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
 
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 
 .icon {margin-top: 23px; float: right; margin-right: 20px;}
 
 .titlar {
   font-family: 'Work Sans', sans-serif;
 
-  font-size: 15px;
+  font-size: 14px;
 }
 .topnav {
   overflow: hidden;
@@ -26,7 +26,7 @@
   margin-right: 70px;
   font-family: 'Work Sans', sans-serif;
 
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .topnav a {
@@ -62,11 +62,11 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .topnav.responsive {
-    position: relative;
-}
-
-}
+  .topnav {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 22px;
+  }}
 
 * {
   box-sizing: border-box;

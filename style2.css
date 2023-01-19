@@ -88,9 +88,11 @@ a:hover {
   }
 }
 @media screen and (max-width: 400px) {
-  .topnav.responsive {
-    position: relative;
-  } }
+  .topnav {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  }}
 * {
   box-sizing: border-box;
 }
