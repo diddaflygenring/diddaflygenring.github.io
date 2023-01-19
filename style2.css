@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 #everything {filter: grayscale(100%) contrast(200%)}
 #video {filter: contrast(1000%) grayscale(100%) brightness(600%) opacity(10%)}
 #illustrations {filter: grayscale(100%) contrast(200%) opacity(10%)}
