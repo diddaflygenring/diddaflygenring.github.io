@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 #everything {filter: grayscale(100%) contrast(200%)}
 #video {filter: contrast(1000%) grayscale(100%) brightness(600%) opacity(10%)}
@@ -31,8 +32,8 @@ a {
 a:hover {
   text-decoration: underline;
   color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
 }
 
 
@@ -262,7 +263,7 @@ img {
 }
 .description {
   font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   margin: 0px;
 }
 .embed-youtube {
