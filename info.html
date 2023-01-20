@@ -12,7 +12,7 @@
 <title>info | Didda Flygenring</title>
 </head>
 <head>
- <div class="topnav2">
+ <div class="topnav">
   <a  href="./" id="didda" >Didda Flygenring</a>
 <a  id="info" class="active2">info</a> <script> 
     
@@ -24,15 +24,12 @@ function mouseOut() {
    document.getElementById("everything").style.filter = 'contrast(1000%) grayscale(100%) brightness(120%)';
 }
     </script>
-<div class="merkifixed">
-  
 
-<input   onclick="window.location.href='./';" id="everything" class= "icon" type="image" width="21px" src="teningur_icon.png" />
- <input   id="video" class= "icon" type="image" width="21px" src="video_icon.png" />
- <input   id="graphic" class= "icon" type="image" width="21px" src="graphic_icon.png" />
- <input   id="illustrations" class= "icon" type="image" width="23px" src="illustrations_icon.png" />
+<input  onmouseout="mouseOut()" onmouseover="mouseOver()" onclick="window.location.href='./';" id="everything" class= "icon" type="image" width="21px" src="teningur_icon.png" />
+ <input  onmouseout="mouseOut1()" onmouseover="mouseOver1()" onclick="video()" id="video" class= "icon" type="image" width="21px" src="video_icon.png" />
+ <input  onmouseout="mouseOut2()" onmouseover="mouseOver2()" onclick="graphic()" id="graphic" class= "icon" type="image" width="21px" src="graphic_icon.png" />
+ <input  onmouseout="mouseOut3()" onmouseover="mouseOver3()" onclick="illustrations()" id="illustrations" class= "icon" type="image" width="23px" src="illustrations_icon.png" />
  </div>
-     </div>
 </head>
 <body>
     <div class="sidenav">
