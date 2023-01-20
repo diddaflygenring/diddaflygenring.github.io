@@ -6,14 +6,16 @@
 
 #everything:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
 
+#didda {
+  position: fixed;
+}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
 
-#didda {
-  position: fixed;
-}
+
 
 
 .icon {margin-top: 23px; float: right; margin-right: 20px;}
