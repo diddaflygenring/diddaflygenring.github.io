@@ -90,6 +90,8 @@ a:hover {
 @media screen and (max-width: 400px) {
   .topnav {
   position: relative;
+  margin-left: 20px;
+  margin-right: 22px;
   }}
 * {
   box-sizing: border-box;
