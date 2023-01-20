@@ -1,11 +1,15 @@
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 #everything {filter: grayscale(100%) contrast(200%)}
 #video {filter: contrast(1000%) grayscale(100%) brightness(600%) opacity(10%)}
 #illustrations {filter: grayscale(100%) contrast(200%) opacity(10%)}
 #graphic {filter: contrast(1000%) grayscale(100%) brightness(600%) opacity(10%)}
+
+#everything:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
 
 #didda {
   position: fixed;
