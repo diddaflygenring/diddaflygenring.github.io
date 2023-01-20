@@ -45,6 +45,15 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin-bottom: 0;
   } 
 
+  @media screen and (max-width: 800px) 
+{.underhover-image {
+    display:none;
+  
+  }
+      .hover-image {
+    display:none;
+}}
+
 
 
 .icon {margin-top: 23px; float: right; margin-right: 20px;}
@@ -276,7 +285,7 @@ img {
     flex: 100%;
     max-width: 90%;
     left: 20px;
-    top: 20px;
+    top: 14px;
     position: relative;
     padding-right: 55px;
   }
