@@ -17,16 +17,7 @@
 }
 
 
-.underhover-image {
-  position: fixed;
-  left: 315px;
-top: 100px;
-  margin-right: 5%;
-  width: auto;
-  height: auto;
-  bottom: 1px;
-max-width: 600px;
-}
+
     .hover-image {
   position: fixed;
       visibility: hidden;
@@ -44,13 +35,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }
 
 
-  .underhover-image img {
-    max-width: 100% !important;
-    max-height: 100% !important;
-    width: auto !important;
-    height: auto !important;
-    margin-bottom: 0;
-  }
+
 .hover-image img {
     max-width: 100% !important;
     max-height: 100% !important;
@@ -58,11 +43,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     height: auto !important;
     margin-bottom: 0;
   }
-@media screen and (max-width: 600px) 
-{.underhover-image {
-    display:none;
-  
-  }
+@media screen and (max-width: 600px) {
       .hover-image {
     display:none;
 }}
