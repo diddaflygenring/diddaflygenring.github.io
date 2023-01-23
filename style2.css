@@ -1,5 +1,5 @@
 
-#video {filter: opacity(20%)}
+#video {filter: opacity(20%); padding-top: 1px;}
 #illustrations {filter: opacity(20%)}
 #graphic {filter: opacity(20%)}
 
