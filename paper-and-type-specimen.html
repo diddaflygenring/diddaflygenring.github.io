@@ -8,7 +8,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
       </style>
    <link rel="stylesheet" href="style2.css">
-   <link rel="icon" type="image/png" href="diddateningur2.png" />
+   <link rel="icon" type="image/png" href="teningur_color.png" />
    <title>Paper and type specimen | Didda Flygenring</title>
   </head>
 
@@ -20,18 +20,19 @@
   <script> 
     
     function mouseOver() {
-   document.getElementById("everything").style.filter = 'contrast(100%) grayscale(0%) brightness(100%)';
+   document.getElementById("everything").src = "teningur_color.png";
  }
  
  function mouseOut() {
-    document.getElementById("everything").style.filter = 'contrast(1000%) grayscale(100%) brightness(600%)';
+    document.getElementById("everything").src = "teningur_empty.png";
  }
      </script>
-<input  onmouseout="mouseOut()" onmouseover="mouseOver()" onclick="window.location.href='./';" id="everything" class= "icon" type="image" width="21px" src="teningur_icon.png" />
-<input  onmouseout="mouseOut1()" onmouseover="mouseOver1()" onclick="video()" id="video" class= "icon" type="image" width="21px" src="video_icon.png" />
-<input  onmouseout="mouseOut2()" onmouseover="mouseOver2()" onclick="graphic()" id="graphic" class= "icon" type="image" width="21px" src="graphic_icon.png" />
-<input  onmouseout="mouseOut3()" onmouseover="mouseOver3()" onclick="illustrations()" id="illustrations" class= "icon" type="image" width="23px" src="illustrations_icon.png" />
-</div>
+ 
+ <input  onmouseout="mouseOut()" onmouseover="mouseOver()" onclick="window.location.href='./';" id="everything" class= "icon" type="image" width="22.5px" src="teningur_empty.png" />
+ <input  onmouseout="mouseOut1()" onmouseover="mouseOver1()" onclick="video()" id="video" class= "icon" type="image" width="23px" src="video_empty.png" />
+ <input  onmouseout="mouseOut2()" onmouseover="mouseOver2()" onclick="graphic()" id="graphic" class= "icon" type="image" width="22px" src="graphic_empty.png" />
+ <input  onmouseout="mouseOut3()" onmouseover="mouseOver3()" onclick="illustrations()" id="illustrations" class= "icon" type="image" width="22px" src="illustration_empty.png" />
+ </div>
   </head>
 
   <body>
