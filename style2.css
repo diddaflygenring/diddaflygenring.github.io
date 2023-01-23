@@ -1,6 +1,6 @@
 
-#video {filter: opacity(20%); padding-top: 2px;}
-#illustrations {filter: opacity(20%)}
+#video {filter: opacity(20%)}
+#illustrations {filter: opacity(20%); padding-top: 1px;}
 #graphic {filter: opacity(20%)}
 
 
