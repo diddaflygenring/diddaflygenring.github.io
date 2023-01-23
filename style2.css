@@ -245,7 +245,7 @@ img {
     width: 230px;
     position: fixed;
     z-index: 1;
-    top: 60px;
+    margin-top: 15px;
     left: 70.5px;
     overflow-x: hidden;
   }
@@ -266,7 +266,7 @@ img {
     flex: 100%;
     max-width: 90%;
     left: 50px;
-    top: 16px;
+    margin-top: 15px;
     position: relative;
     padding-right: 55px;
   }
@@ -277,7 +277,7 @@ img {
     flex: 100%;
     max-width: 90%;
     left: 20px;
-    top: 14px;
+    margin-top: 15px;
     position: relative;
     padding-right: 55px;
   }
