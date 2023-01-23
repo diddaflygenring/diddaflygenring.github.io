@@ -1,7 +1,7 @@
 
 #video {filter: opacity(20%);}
 #illustrations {filter: opacity(20%);}
-#graphic {filter: opacity(20%);}
+#graphic {filter: opacity(20%); margin-right: 19px;}
 
 
 #didda {
@@ -48,7 +48,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 
 
-.icon {margin-top: 23px; float: right; margin-right: 20px;}
+.icon {margin-top: 21px; float: right; margin-right: 20px;}
 
 @media screen and (max-width: 800px) {
   #didda {
