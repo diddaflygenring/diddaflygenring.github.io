@@ -1,10 +1,8 @@
 
-#everything {filter: grayscale(100%) contrast(200%)}
-#video {filter: contrast(1000%) grayscale(100%) brightness(600%) opacity(10%)}
-#illustrations {filter: grayscale(100%) contrast(200%) opacity(10%)}
-#graphic {filter: contrast(1000%) grayscale(100%) brightness(600%) opacity(10%)}
+#video {filter: opacity(20%)}
+#illustrations {filter: opacity(20%)}
+#graphic {filter: opacity(20%)}
 
-#everything:hover {filter: contrast(100%) grayscale(0%) brightness(100%)}
 
 #didda {
   position: fixed;
