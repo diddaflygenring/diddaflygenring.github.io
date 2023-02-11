@@ -41,7 +41,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     height: auto !important;
     margin-bottom: 0;
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
       .hover-image {
     display:none;
 }}
