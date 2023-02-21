@@ -1,9 +1,13 @@
 
-   #graphic {margin-right: 19px;}
+
+#video {filter: opacity(20%);}
+#illustrations {filter: opacity(20%); margin-top: 24px;}
+#graphic {filter: opacity(20%); margin-right: 18px;}
+
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
-.icon {margin-top: 21px; float: right; margin-right: 20px;}
+.icon {margin-top: 23px; float: right; margin-right: 20px;}
 
 .titlar {
   font-family: 'Work Sans', sans-serif;
@@ -67,7 +71,7 @@ body {
   margin-top: 0px;
   margin-left: 20.5px;
   margin-right: 20.5px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 img {visibility: visible;}
@@ -204,7 +208,7 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #ethics {
-    top: 1px;
+    top: 0px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -228,7 +232,7 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #pandemic {
-    top: 60px;
+    top: 70px;
     position: relative;
   }
 }
@@ -250,6 +254,44 @@ img {visibility: visible;}
     top: 75px;
   }
 }
+
+@media screen and (min-width: 800px) {
+  #rikk {
+    top: 70px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  #rikk {
+    top: 70px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) {
+  #rikk {
+    position: relative;
+    top: 65px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #instacomic {
+    top: 80px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  #instacomic {
+    top: 80px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) {
+  #instacomic {
+    position: relative;
+    top:64px;
+  }
+}
 @media screen and (min-width: 800px) {
   #helgi {
     top: 110px;
@@ -258,7 +300,7 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 800px) {
   #helgi {
-    top: 130px;
+    top: 110px;
     position: relative;
   }
 }
@@ -333,12 +375,13 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 800px) {
   #thesis {
-    top: 35px;
+    top: 70px;
+    position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #thesis {
-    margin-top: 25px;
+    top: 20px;
     position: relative;
   }
 }
@@ -350,13 +393,13 @@ img {visibility: visible;}
 }
 @media screen and (min-width: 800px) {
   #sewn {
-    top: 70px;
+    top: 50px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #sewn {
-    top: 70px;
+    top: 50px;
     position: relative;
   }
 }
@@ -368,6 +411,31 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 400px) {
   #sewn {
+    top: 45px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #klifurleikir {
+    top: 70px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 800px) {
+  #klifurleikir {
+    top: 70px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) {
+  #klifurleikir {
+    top: 55px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 400px) {
+  #klifurleikir {
     top: 45px;
     position: relative;
   }
@@ -476,7 +544,7 @@ img {visibility: visible;}
     max-width: 100%;
     padding: 10 0px;
     right: 0px;
-    margin-top: 1px;
+    margin-top: 0px;
   }
 }
 
