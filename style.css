@@ -6,8 +6,6 @@
 
 .icon {margin-top: 21px; float: right; margin-right: 20px;}
 
-
-
 .titlar {
   font-family: 'Work Sans', sans-serif;
 
@@ -225,13 +223,13 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 800px) {
   #pandemic {
-    top: 80px;
+    top: 50px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #pandemic {
-    top: 70px;
+    top: 50px;
     position: relative;
   }
 }
@@ -244,32 +242,32 @@ img {visibility: visible;}
 @media screen and (max-width: 800px) {
   #gardina {
     position: relative;
-    top: 100px;
+    top: 60px;
   }
 }
 @media screen and (max-width: 600px) {
   #gardina {
     position: relative;
-    top: 75px;
+    top: 50px;
   }
 }
 
 @media screen and (min-width: 800px) {
   #rikk {
-    top: 70px;
+    top: 40px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #rikk {
-    top: 70px;
+    top: 50px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #rikk {
     position: relative;
-    top: 65px;
+    top: 45px;
   }
 }
 
@@ -281,32 +279,33 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 800px) {
   #instacomic {
-    top: 80px;
+    top: 110px;
+    width: 90%;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #instacomic {
     position: relative;
-    top:64px;
+    top:84px;
   }
 }
 @media screen and (min-width: 800px) {
   #helgi {
-    top: 110px;
+    top: 100px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #helgi {
-    top: 110px;
+    top: 60px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #helgi {
     position: relative;
-    top: 90px;
+    top: 60px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -351,7 +350,7 @@ img {visibility: visible;}
 @media screen and (min-width: 800px) {
   #sund {
     position: relative;
-    top: 20px;
+    top: 40px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -362,19 +361,19 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #sund {
-    top: 10px;
+    top: 27px;
     position: relative;
   }
 }
 @media screen and (min-width: 800px) {
   #thesis {
-    top: 33px;
+    top: 23px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #thesis {
-    top: 70px;
+    top: 10px;
     position: relative;
   }
 }
@@ -417,7 +416,7 @@ img {visibility: visible;}
 
 @media screen and (min-width: 800px) {
   #klifurleikir {
-    top: 70px;
+    top: 100px;
     position: relative;
   }
 }
