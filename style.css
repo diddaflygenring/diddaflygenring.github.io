@@ -84,7 +84,7 @@ img {visibility: visible;}
   filter: opacity(80%)
 }
 
-#pandemic {
+'#pandemic {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -205,7 +205,7 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #ethics {
-    top: 0px;
+    top: 1px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -223,13 +223,13 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 800px) {
   #pandemic {
-    top: 50px;
+    top: 80px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #pandemic {
-    top: 50px;
+    top: 60px;
     position: relative;
   }
 }
@@ -242,70 +242,31 @@ img {visibility: visible;}
 @media screen and (max-width: 800px) {
   #gardina {
     position: relative;
-    top: 60px;
+    top: 100px;
   }
 }
 @media screen and (max-width: 600px) {
   #gardina {
     position: relative;
-    top: 50px;
+    top: 75px;
   }
 }
-
 @media screen and (min-width: 800px) {
-  #rikk {
-    top: 40px;
-    position: relative;
-  }
-}
-@media screen and (max-width: 800px) {
-  #rikk {
-    top: 50px;
-    position: relative;
-  }
-}
-@media screen and (max-width: 600px) {
-  #rikk {
-    position: relative;
-    top: 45px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  #instacomic {
-    top: 80px;
-    position: relative;
-  }
-}
-@media screen and (max-width: 800px) {
-  #instacomic {
+  #helgi {
     top: 110px;
-    width: 90%;
-    position: relative;
-  }
-}
-@media screen and (max-width: 600px) {
-  #instacomic {
-    position: relative;
-    top:84px;
-  }
-}
-@media screen and (min-width: 800px) {
-  #helgi {
-    top: 100px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #helgi {
-    top: 60px;
+    top: 130px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
   #helgi {
     position: relative;
-    top: 60px;
+    top: 90px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -350,7 +311,7 @@ img {visibility: visible;}
 @media screen and (min-width: 800px) {
   #sund {
     position: relative;
-    top: 40px;
+    top: 20px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -361,25 +322,24 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #sund {
-    top: 27px;
+    top: 10px;
     position: relative;
   }
 }
 @media screen and (min-width: 800px) {
   #thesis {
-    top: 23px;
+    top: 33px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #thesis {
-    top: 10px;
-    position: relative;
+    top: 35px;
   }
 }
 @media screen and (max-width: 600px) {
   #thesis {
-    top: 20px;
+    margin-top: 25px;
     position: relative;
   }
 }
@@ -391,49 +351,24 @@ img {visibility: visible;}
 }
 @media screen and (min-width: 800px) {
   #sewn {
-    top: 50px;
+    top: 70px;
     position: relative;
   }
 }
 @media screen and (max-width: 800px) {
   #sewn {
-    top: 50px;
-    position: relative;
-  }
-}
-@media screen and (max-width: 600px) {
-  #sewn {
-    top: 55px;
-    position: relative;
-  }
-}
-@media screen and (max-width: 400px) {
-  #sewn {
-    top: 45px;
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  #klifurleikir {
-    top: 100px;
-    position: relative;
-  }
-}
-@media screen and (max-width: 800px) {
-  #klifurleikir {
     top: 70px;
     position: relative;
   }
 }
 @media screen and (max-width: 600px) {
-  #klifurleikir {
+  #sewn {
     top: 55px;
     position: relative;
   }
 }
 @media screen and (max-width: 400px) {
-  #klifurleikir {
+  #sewn {
     top: 45px;
     position: relative;
   }
@@ -542,7 +477,7 @@ img {visibility: visible;}
     max-width: 100%;
     padding: 10 0px;
     right: 0px;
-    margin-top: 0px;
+    margin-top: 1px;
   }
 }
 
