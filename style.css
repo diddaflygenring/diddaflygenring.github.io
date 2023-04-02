@@ -97,6 +97,11 @@ img {visibility: visible;}
   margin-right: auto;
   float: block;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: block;
+  position: relative;
 }
 #thesis {
   display: block;
