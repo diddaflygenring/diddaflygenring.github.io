@@ -84,7 +84,7 @@ img {visibility: visible;}
   filter: opacity(80%)
 }
 
-'#pandemic {
+#pandemic {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -96,7 +96,6 @@ img {visibility: visible;}
   margin-left: auto;
   margin-right: auto;
   float: block;
-  
   position: relative;
 }
 #thesis {
@@ -120,6 +119,7 @@ img {visibility: visible;}
   margin-left: auto;
   margin-right: auto;
   float: block;
+  position: relative;
 }
 
 @media screen and (min-width: 800px) {
@@ -141,6 +141,7 @@ img {visibility: visible;}
 @media screen and (max-width: 600px) {
   #empty {
     display: none;
+    position: relative;
     height: 1px;
   }
 }
