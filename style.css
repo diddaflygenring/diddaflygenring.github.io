@@ -96,11 +96,7 @@ img {visibility: visible;}
   margin-left: auto;
   margin-right: auto;
   float: block;
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: block;
+  
   position: relative;
 }
 #thesis {
@@ -327,7 +323,6 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #sund {
-    top: 0px;
     position: relative;
   }
 }
