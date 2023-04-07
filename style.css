@@ -313,7 +313,7 @@ img {visibility: visible;}
 @media screen and (min-width: 800px) {
   #sund {
     position: relative;
-    top: 20px;
+    top: 14px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -340,13 +340,13 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #thesis {
-    margin-top: 25px;
+    top: 18px;
     position: relative;
   }
 }
 @media screen and (max-width: 400px) {
   #thesis {
-    top: 25px;
+    top: 18px;
     position: relative;
   }
 }
