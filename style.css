@@ -340,13 +340,13 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #thesis {
-    top: 18px;
+    top: 30px;
     position: relative;
   }
 }
 @media screen and (max-width: 400px) {
   #thesis {
-    top: 18px;
+    top: 30px;
     position: relative;
   }
 }
