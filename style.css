@@ -8,16 +8,29 @@
 
 .titlar {
   font-family: 'Work Sans', sans-serif;
-
   font-size: 15px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+
+
 .topnav {
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #ffffff; 
   margin-left: 50px;
   margin-right: 70px;
   font-family: 'Work Sans', sans-serif;
-
   font-size: 15px;
 }
 
@@ -29,18 +42,26 @@
   text-decoration: none;
 }
 
-.topnav a.split {
-  float: right;
-  color: black;
-  padding-left: 10px;
-}
-.topnav a.active {
-  text-decoration: underline;
-}
-
 .topnav a:hover {
   text-decoration: underline;
 }
+
+.topnav a.split {
+  float: right;
+  color: black;
+}
+
+.topnav a.active2 {
+  float: right;
+  color: black;
+  text-decoration: underline;}
+
+#info {
+  padding-left: 10px;}
+
+.topnav a.active {
+  text-decoration: underline;}
+
 
 @media screen and (max-width: 700px) {
   .topnav.responsive {
@@ -59,17 +80,18 @@
   margin-left: 20px;
   margin-right: 22px;
   }}
-
 * {
   box-sizing: border-box;
 }
-
 body {
   margin-top: 0px;
   margin-left: 20.5px;
   margin-right: 20.5px;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
+
+@media screen and (max-width: 490px) {input {display: none;}}
+
 
 img {visibility: visible;}
 
@@ -77,8 +99,6 @@ img {visibility: visible;}
   margin-top: 37px;
 
 }
- 
-@media screen and (max-width: 490px) {input {display: none;}}
 
 .column img:hover {
   filter: opacity(80%)
@@ -142,6 +162,8 @@ img {visibility: visible;}
   #empty {
     display: none;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     height: 1px;
   }
 }
