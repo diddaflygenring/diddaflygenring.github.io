@@ -327,7 +327,7 @@ img {visibility: visible;}
 }
 @media screen and (max-width: 600px) {
   #sund {
-    top: 5px;
+    top: 0px;
     position: relative;
   }
 }
