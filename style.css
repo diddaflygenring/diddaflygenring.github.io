@@ -1,514 +1,490 @@
 
-
 #graphic {margin-right: 19px;}
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
 .icon {margin-top: 21px; float: right; margin-right: 20px;}
 
 .titlar {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
-}
+font-family: 'Work Sans', sans-serif;
 
-a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
+font-size: 15px;
 }
-a:hover {
-  text-decoration: underline;
-  color: black;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
-}
-
-
 .topnav {
-  overflow: hidden;
-  background-color: #ffffff; 
-  margin-left: 50px;
-  margin-right: 70px;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
+overflow: hidden;
+background-color: #ffffff;
+margin-left: 50px;
+margin-right: 70px;
+font-family: 'Work Sans', sans-serif;
+
+font-size: 15px;
 }
 
 .topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding-top: 23px;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  text-decoration: underline;
+float: left;
+color: black;
+text-align: center;
+padding-top: 23px;
+text-decoration: none;
 }
 
 .topnav a.split {
-  float: right;
-  color: black;
+float: right;
+color: black;
+padding-left: 10px;
+}
+.topnav a.active {
+text-decoration: underline;
 }
 
-.topnav a.active2 {
-  float: right;
-  color: black;
-  text-decoration: underline;}
-
-#info {
-  padding-left: 10px;}
-
-.topnav a.active {
-  text-decoration: underline;}
-
+.topnav a:hover {
+text-decoration: underline;
+}
 
 @media screen and (max-width: 700px) {
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
-    padding: 14px 0px 0px;
-  }
+.topnav.responsive {
+position: relative;
+}
+.topnav.responsive a {
+float: none;
+display: block;
+text-align: center;
+padding: 14px 0px 0px;
+}
 }
 @media screen and (max-width: 400px) {
-  .topnav {
-  position: relative;
-  margin-left: 20px;
-  margin-right: 22px;
-  }}
+.topnav {
+position: relative;
+margin-left: 20px;
+margin-right: 22px;
+}}
+
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
+
 body {
-  margin-top: 0px;
-  margin-left: 20.5px;
-  margin-right: 20.5px;
-  padding-bottom: 80px;
+margin-top: 0px;
+margin-left: 20.5px;
+margin-right: 20.5px;
+padding-bottom: 100px;
 }
-
-@media screen and (max-width: 490px) {input {display: none;}}
-
 
 img {visibility: visible;}
 
 .column img {
-  margin-top: 37px;
+margin-top: 37px;
 
 }
 
+@media screen and (max-width: 490px) {input {display: none;}}
+
 .column img:hover {
-  filter: opacity(80%)
+filter: opacity(80%)
 }
 
 #pandemic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: block;
-  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: block;
+position: relative;
 }
 #sund {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: block;
-  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: block;
+position: relative;
 }
 #thesis {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: block;
-  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: block;
+position: relative;
 }
 
 #yearbook {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: block;
-  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: block;
+position: relative;
 }
 
 #foam {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: block;
-  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: block;
 }
 
 @media screen and (min-width: 800px) {
-  #foam {
-    top: 10px;
-  }
+#foam {
+top: 10px;
+}
 }
 @media screen and (max-width: 800px) {
-  #foam {
-    position: relative;
-  }
+#foam {
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #foam {
-    position: relative;
-  }
+#foam {
+position: relative;
+}
 }
 
 @media screen and (max-width: 600px) {
-  #empty {
-    display: none;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1px;
-  }
+#empty {
+display: none;
+height: 1px;
+}
 }
 
 @media screen and (min-width: 800px) {
-  #specimen {
-    top: 2%;
-    position: relative;
-  }
+#specimen {
+top: 2%;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #specimen {
-    top: 25px;
-    position: relative;
-  }
+#specimen {
+top: 25px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #specimen {
-    margin-top: 70px;
-    position: relative;
-  }
+#specimen {
+margin-top: 70px;
+position: relative;
+}
 }
 
 @media screen and (min-width: 800px) {
-  #bus {
-    top: 31px;
-    position: relative;
-    width: 73%;
-  }
+#bus {
+top: 31px;
+position: relative;
+width: 73%;
+}
 }
 @media screen and (max-width: 800px) {
-  #bus {
-    width: 70%;
-    top: 50px;
-    position: relative;
-  }
+#bus {
+width: 70%;
+top: 50px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #bus {
-    width: 70%;
-    top: 35px;
-    position: relative;
-  }
+#bus {
+width: 70%;
+top: 35px;
+position: relative;
+}
 }
 @media screen and (max-width: 400px) {
-  #bus {
-    width: 70%;
-    top: 19px;
-    position: relative;
-  }
+#bus {
+width: 70%;
+top: 19px;
+position: relative;
+}
 }
 @media screen and (min-width: 800px) {
-  #ethics {
-    top: 48px;
-    position: relative;
-  }
+#ethics {
+top: 48px;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #ethics {
-    top: 48px;
-    position: relative;
-  }
+#ethics {
+top: 48px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #ethics {
-    top: 1px;
-  }
+#ethics {
+top: 1px;
+}
 }
 @media screen and (max-width: 400px) {
-  #ethics {
-    top: 0px;
-  }
+#ethics {
+top: 0px;
+}
 }
 
 @media screen and (min-width: 800px) {
-  #pandemic {
-    top: 90px;
-    height: auto;
-    position: relative;
-  }
+#pandemic {
+top: 90px;
+height: auto;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #pandemic {
-    top: 80px;
-    position: relative;
-  }
+#pandemic {
+top: 80px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #pandemic {
-    top: 60px;
-    position: relative;
-  }
+#pandemic {
+top: 60px;
+position: relative;
+}
 }
 @media screen and (min-width: 800px) {
-  #gardina {
-    position: relative;
-    top: 100px;
-  }
+#gardina {
+position: relative;
+top: 100px;
+}
 }
 @media screen and (max-width: 800px) {
-  #gardina {
-    position: relative;
-    top: 100px;
-  }
+#gardina {
+position: relative;
+top: 100px;
+}
 }
 @media screen and (max-width: 600px) {
-  #gardina {
-    position: relative;
-    top: 75px;
-  }
+#gardina {
+position: relative;
+top: 75px;
+}
 }
 @media screen and (min-width: 800px) {
-  #helgi {
-    top: 110px;
-    position: relative;
-  }
+#helgi {
+top: 110px;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #helgi {
-    top: 130px;
-    position: relative;
-  }
+#helgi {
+top: 130px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #helgi {
-    position: relative;
-    top: 90px;
-  }
+#helgi {
+position: relative;
+top: 90px;
+}
 }
 @media screen and (min-width: 800px) {
-  #deer {
-    top: 1px;
-    height: auto;
-  }
+#deer {
+top: 1px;
+height: auto;
+}
 }
 @media screen and (max-width: 800px) {
-  #deer {
-    top: 1px;
-    position: relative;
-  }
+#deer {
+top: 1px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #deer {
-    top: 50px;
-  }
+#deer {
+top: 50px;
+}
 }
 @media screen and (max-width: 400px) {
-  #deer {
-    top: 40px;
-  }
+#deer {
+top: 40px;
+}
 }
 @media screen and (min-width: 800px) {
-  #prishtina {
-    top: 75px;
-    position: relative;
-  }
+#prishtina {
+top: 75px;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #prishtina {
-    top: 55px;
-    position: relative;
-  }
+#prishtina {
+top: 55px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #prishtina {
-    top: 50px;
-  }
+#prishtina {
+top: 50px;
+}
 }
 @media screen and (min-width: 800px) {
-  #sund {
-    position: relative;
-    top: 14px;
-  }
+#sund {
+position: relative;
+top: 20px;
+}
 }
 @media screen and (max-width: 800px) {
-  #sund {
-    top: 15px;
-    position: relative;
-  }
+#sund {
+top: 20px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #sund {
-    position: relative;
-  }
+#sund {
+top: 10px;
+position: relative;
+}
 }
 @media screen and (min-width: 800px) {
-  #thesis {
-    top: 33px;
-    position: relative;
-  }
+#thesis {
+top: 33px;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #thesis {
-    top: 35px;
-  }
+#thesis {
+top: 35px;
+}
 }
 @media screen and (max-width: 600px) {
-  #thesis {
-    top: 30px;
-    position: relative;
-  }
+#thesis {
+margin-top: 25px;
+position: relative;
+}
 }
 @media screen and (max-width: 400px) {
-  #thesis {
-    top: 30px;
-    position: relative;
-  }
+#thesis {
+top: 25px;
+position: relative;
+}
 }
 @media screen and (min-width: 800px) {
-  #sewn {
-    top: 70px;
-    position: relative;
-  }
+#sewn {
+top: 70px;
+position: relative;
+}
 }
 @media screen and (max-width: 800px) {
-  #sewn {
-    top: 70px;
-    position: relative;
-  }
+#sewn {
+top: 70px;
+position: relative;
+}
 }
 @media screen and (max-width: 600px) {
-  #sewn {
-    top: 55px;
-    position: relative;
-  }
+#sewn {
+top: 55px;
+position: relative;
+}
 }
 @media screen and (max-width: 400px) {
-  #sewn {
-    top: 45px;
-    position: relative;
-  }
+#sewn {
+top: 45px;
+position: relative;
+}
 }
 
 @media screen and (min-width: 800px) {
-  #yearbook {
-    top: 60px;
-    position: relative;
-  }
+#yearbook {
+top: 60px;
+position: relative;
+}
 }
 
 @media screen and (max-width: 800px) {
-  #yearbook {
-    top: 20px;
-  }
+#yearbook {
+top: 20px;
+}
 }
 
 @media screen and (min-width: 800px) {
-  #pixels {
-    top: 73px;
-  }
+#pixels {
+top: 73px;
+}
 }
 @media screen and (max-width: 800px) {
-  #pixels {
-    top: 30px;
-  }
+#pixels {
+top: 30px;
+}
 }
 
 @media screen and (max-width: 600px) {
-  #pixels {
-    top: 30px;
-    position: relative;
-  }
+#pixels {
+top: 30px;
+position: relative;
+}
 }
 
 .row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 0px;
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+padding: 0 0px;
 }
 @media screen and (max-width: 800px) {
-  .row {
-    display: flex;
-    position: relative;
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+.row {
+display: flex;
+position: relative;
+-ms-flex: 100%;
+flex: 100%;
+max-width: 100%;
+}
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 10px;
+-ms-flex: 25%; /* IE10 */
+flex: 25%;
+max-width: 25%;
+padding: 0 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+.column {
+-ms-flex: 50%;
+flex: 50%;
+max-width: 50%;
 
-    padding: 20px 0px;
-  }
+padding: 20px 0px;
+}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+.column {
+-ms-flex: 100%;
+flex: 100%;
+max-width: 100%;
+}
 }
 @media screen and (min-width: 800px) {
-  #biblio {
-    float: right;
-    position: relative;
-    right: 26%;
-    margin-top: 42px;
-  }
+#biblio {
+float: right;
+position: relative;
+right: 26%;
+margin-top: 42px;
+}
 }
 
 @media screen and (max-width: 800px) {
-  #biblio {
-    -ms-flex: 160%;
-    flex: 160%;
-    max-width: 160%;
-    right: 82%;
-    margin-top: 55px;
-    position: relative;
-  }
+#biblio {
+-ms-flex: 160%;
+flex: 160%;
+max-width: 160%;
+right: 82%;
+margin-top: 55px;
+position: relative;
+}
 }
 
 @media screen and (max-width: 600px) {
-  #biblio {
-    -ms-flex: 100%;
-    -webkit-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-    padding: 10 0px;
-    right: 0px;
-    margin-top: 1px;
-  }
+#biblio {
+-ms-flex: 100%;
+-webkit-flex: 100%;
+flex: 100%;
+max-width: 100%;
+padding: 10 0px;
+right: 0px;
+margin-top: 1px;
+}
 }
 
 @media screen and (min-width: 800px) {
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
 }
