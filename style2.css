@@ -2,7 +2,7 @@
 #video {filter: opacity(20%);}
 #illustrations {filter: opacity(20%);}
 #graphic {filter: opacity(20%); margin-right: 19px;}
-
+#didda {position: fixed;}
 
 .icon {margin-top: 21px; float: right; margin-right: 20px;}
 .icon2 {margin-top: 21px; float: left; }
@@ -86,32 +86,6 @@ a:hover {
   font-size: 15px;
 }
 
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding-top: 23px;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  text-decoration: underline;
-}
-
-.topnav a.split {
-  float: right;
-  color: black;
-}
-
-.topnav a.active2 {
-  float: right;
-  color: black;
-  text-decoration: underline;}
-
-
-.topnav a.active {
-  text-decoration: underline;}
-
 
 @media screen and (max-width: 700px) {
   .topnav.responsive {
@@ -124,12 +98,18 @@ a:hover {
     padding: 14px 0px 0px;
   }
 }
-@media screen and (max-width: 400px) {
-  .topnav {
-  position: relative;
-  margin-left: 20px;
-  margin-right: 22px;
-  }}
+@media screen and (max-width: 499px) {
+.topnav {
+position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}
+
+
+@media screen and (max-width: 499px) {.icon {display: none;} }
+@media screen and (max-width: 239px) {.info {margin-top: 7px; float: left;}}
+
 * {
   box-sizing: border-box;
 }
@@ -139,8 +119,6 @@ body {
   margin-right: 20.5px;
   padding-bottom: 80px;
 }
-
-@media screen and (max-width: 490px) {input {display: none;}}
 
 @media screen and (min-width: 1600px) {
   .row {
@@ -185,7 +163,7 @@ body {
     margin-right: 50px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 499px) {
   .row {
     display: flex;
     position: relative;
@@ -213,7 +191,6 @@ body {
     position: relative;
   }
 }
-@media screen and (max-width: 490px) {input {display: none;}}
 .imag {
   padding-top: 15px;
   position: relative;
@@ -268,7 +245,7 @@ img {
     padding-right: 55px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 499px) {
   .sidenav {
     -ms-flex: 100%;
     flex: 100%;
@@ -291,7 +268,7 @@ img {
     position: relative;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 499px) {
   .content {
     -ms-flex: 100%;
     flex: 100%;
