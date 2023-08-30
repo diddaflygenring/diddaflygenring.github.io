@@ -15,10 +15,25 @@
 
   <head>
     <div class="topnav">
-  <a  href="./" id="didda" >Didda Flygenring</a>
-  <a id="info" href="./info" class="split">info</a>
-  <script> 
-    
+      <input  href="./" id="didda"   title="didda" onmouseout="mouseOut5()" onmouseover="mouseOver5()" onclick="window.location.href='./';" class= "icon" type="image" height="23px" src="diddaflygenring_empty.png" />
+      <input  href="./info" class="info" id="info"  title="info" onmouseout="mouseOut6()" onmouseover="mouseOver6()" onclick="window.location.href='./info';" type="image" height="23px" src="info_empty.png" />
+        <script> 
+          
+          function mouseOver5() {
+       document.getElementById("didda").src = "diddaflygenring_lined.png";
+      }
+      
+      function mouseOut5() {
+        document.getElementById("didda").src = "diddaflygenring_empty.png";
+      }
+          
+        function mouseOver6() {
+       document.getElementById("info").src = "info_lined.png";
+      }
+      
+      function mouseOut6() {
+        document.getElementById("info").src = "info_empty.png";
+      }  
     function mouseOver() {
    document.getElementById("everything").src = "teningur_color.png";
  }

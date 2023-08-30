@@ -13,8 +13,9 @@
 
  
   <div class="topnav">
-    <a href="./" class="active" id="didda">Didda Flygenring</a>
-    <a href="./info" class="split">info</a> 
+   <input href="./" id="didda"  title="didda" class= "icon" type="image" height="23px" src="diddaflygenring_lined.png" />
+    <input  href="./info" class="info" id="info"  title="info" onmouseout="mouseOut5()" onmouseover="mouseOver5()" onclick="window.location.href='./info';" type="image" height="23px" src="info_empty.png" />
+  
     <script> 
       function illustrations(){
       document.getElementById('yearbook').style.opacity = '0.2';
@@ -149,6 +150,14 @@
   function mouseOut2() {
     if(!is_clicked2) document.getElementById("graphic").src="graphic_empty.png";
   }
+      
+     function mouseOver5() {
+ document.getElementById("info").src = "info_lined.png";
+}
+
+function mouseOut5() {
+  document.getElementById("info").src = "info_empty.png";
+}
       
     
       
