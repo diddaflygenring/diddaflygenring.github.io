@@ -1,8 +1,21 @@
 
-#video {filter: opacity(20%);}
-#illustrations {filter: opacity(20%);}
-#graphic {filter: opacity(20%); margin-right: 19px;}
-#didda {position: fixed;}
+#video {filter: opacity(20%); cursor: url(
+  cursor.png
+),
+auto;}
+#illustrations {filter: opacity(20%); cursor: url(
+  cursor.png
+),
+auto;}
+#graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
+  cursor.png
+),
+auto;}
+#didda {position: fixed; }
+#teningur { cursor: url(
+  https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
+),
+auto;}
 
 .icon {margin-top: 21px; float: right; margin-right: 18px;}
 .icon2 {margin-top: 21px; float: left; }
