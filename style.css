@@ -1,16 +1,22 @@
 
 #graphic {margin-right: 19px;}
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+ * { box-sizing: border-box;
+        cursor: url(
+            https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+          ),
+          auto;
+      }
+      
 
 .icon {margin-top: 21px; float: right; margin-right: 18px;}
-.icon2 {margin-top: 21px; float: left;  }
-.info {margin-top: 21px;  float: right; margin-right: 0px;}
+.icon2 {margin-top: 21px; float: left; }
+.info {margin-top: 21px; float: right; margin-right: 0px;}
 
 .titlar {
 font-family: 'Work Sans', sans-serif;
-
-
 
 font-size: 15px;
 }
@@ -30,12 +36,21 @@ position: relative;
 }
 }
 
-* { box-sizing: border-box;
-  cursor: url(
-      cursor.png
+@media screen and (max-width: 1249.9px) {
+  .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
+
+@media screen and (min-width: 1250px) {
+ 
+#teningur {right: 228.5px; cursor: url(
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
     ),
-    auto;
-  
+    auto;}
+  #video {margin-right: 60px;}
+
+.icon {position: relative; margin-top: 21px; float: right; }
+.teningur {position: absolute; margin-top: 21px;  right: 125.8px; }
+.icon2 {margin-top: 21px; float: left; }
+.info {margin-top: 21px; right: 70.5px;}
 }
 
 body {
@@ -43,22 +58,21 @@ margin-top: 0px;
 margin-left: 20.5px;
 margin-right: 20.5px;
 padding-bottom: 100px;
-
 }
 
 img {visibility: visible;
-  cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-    ),
-    auto;
-}
+        cursor: url(
+            https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
+          ),
+          auto;
+      }
 
-input {
-  cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-    ),
-    auto;
-}
+href {
+        cursor: url(
+            https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
+          ),
+          auto;
+      }
 
 .column img {
 margin-top: 37px;
