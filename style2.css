@@ -30,7 +30,35 @@ auto;}
     auto;
 }
 
+@media screen and (max-width: 1250px) {
+  .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
 
+@media screen and (min-width: 1200px) {
+  #video {margin-right: 97px; filter: opacity(20%); cursor: url(
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+    ),
+    auto;}
+#illustrations {margin-right: 18px; filter: opacity(20%); cursor: url(
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+    ),
+    auto;}
+#graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+    ),
+    auto;}
+#didda {position: fixed; }
+#teningur {right: 228.5px; cursor: url(
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
+    ),
+    auto;}
+
+.icon {margin-top: 21px; float: right; }
+.teningur {margin-top: 21px; position: fixed; right: 125.8px; }
+.icon2 {margin-top: 21px; float: left; }
+.info {
+  position: fixed;
+ margin-top: 21px; right: 70.5px;}
+}
 
     .hover-image {
   position: fixed;
