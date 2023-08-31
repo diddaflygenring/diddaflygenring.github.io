@@ -31,10 +31,7 @@ position: relative;
 }
 
 * { box-sizing: border-box;
-  cursor: url(
-      cursor.png
-    ),
-    auto;
+  
 }
 
 body {
@@ -42,6 +39,10 @@ margin-top: 0px;
 margin-left: 20.5px;
 margin-right: 20.5px;
 padding-bottom: 100px;
+cursor: url(
+      cursor.png
+    ),
+    auto;
 }
 
 img {visibility: visible;
