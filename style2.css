@@ -30,6 +30,26 @@ auto;}
     auto;
 }
 
+
+
+    .hover-image {
+  position: fixed;
+      visibility: hidden;
+  left: 315px;
+top: 100px;
+  margin-right: 5%;
+  width: auto;
+  height: auto;
+  bottom: 1px;
+       max-width: 600px;
+      
+} 
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+  
+}
+
 @media screen and (max-width: 1249.9px) {
   .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
 
@@ -59,26 +79,6 @@ auto;}
   position: fixed;
  margin-top: 21px; right: 70.5px;}
 }
-
-    .hover-image {
-  position: fixed;
-      visibility: hidden;
-  left: 315px;
-top: 100px;
-  margin-right: 5%;
-  width: auto;
-  height: auto;
-  bottom: 1px;
-       max-width: 600px;
-      
-} 
-body:not(.mobile) .hover-title:hover + .hover-image {
-    visibility: visible;
-    pointer-events: none;
-  
-}
-
-
 
 .hover-image img {
     max-width: 100% !important;
@@ -178,6 +178,7 @@ body {
           ),
           auto;
 }
+
 
 @media screen and (min-width: 1600px) {
   .row {
