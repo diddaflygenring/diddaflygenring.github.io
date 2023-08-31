@@ -55,15 +55,15 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 @media screen and (min-width: 1250px) {
   #video {margin-right: 97px; filter: opacity(20%); cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+    cursor.png
     ),
     auto;}
 #illustrations {margin-right: 18px; filter: opacity(20%); cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+  cursor.png
     ),
     auto;}
 #graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+  cursor.png
     ),
     auto;}
 #didda {position: fixed; }
