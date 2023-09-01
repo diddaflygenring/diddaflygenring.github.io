@@ -85,9 +85,8 @@ input {
     auto;
 }
 
-@media screen and (max-width: 499px) {.icon {display: none;} }
-
-@media screen and (max-width: 239px) {.info {float: left; margin-top: 10px;}}
+@media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
+@media screen and (max-width: 233px) {.info {margin-top: 7px; float: left;}}
 
 
 .column img:hover {
