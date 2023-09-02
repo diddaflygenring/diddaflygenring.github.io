@@ -176,9 +176,12 @@ position: relative;
 @media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
 @media screen and (max-width: 239px) {.info {margin-top: 7px; float: left;}}
 
- * { box-sizing: border-box;
-        
-      }
+* { box-sizing: border-box;
+  cursor: url(
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
+    ),
+    auto;
+}
 body {
   margin-top: 0px;
   margin-left: 20.5px;
