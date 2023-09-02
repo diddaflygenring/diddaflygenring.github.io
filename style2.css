@@ -19,10 +19,7 @@ auto;}
 ),
 auto;}
 
-@media screen and (min-width: 800.5px) {
-  .backandforth {position: fixed; bottom: 35px; margin-left:87%; z-index:1;} 
-#forward {margin-left: 35px;}
-}
+
 
 #everything:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -45,6 +42,11 @@ auto;}
     transform: translate3d(2px, 0, 1px);
 }}
 
+
+
+@media screen and (min-width: 800.5px) {.backandforth {position: fixed; bottom: 35px; margin-left:87%; z-index:1;} #forward {margin-left: 35px;}
+}
+
 .icon {margin-top: 21px; float: right; margin-right: 18px;}
 .icon2 {margin-top: 21px; float: left; }
 .info {margin-top: 21px; float: right; margin-right: 0px;}
@@ -57,6 +59,7 @@ auto;}
     ),
     auto;
 }
+
 
 
 
@@ -83,15 +86,15 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 @media screen and (min-width: 1250px) {
   #video {margin-right: 97px; filter: opacity(20%); cursor: url(
-    cursor.png
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
     ),
     auto;}
 #illustrations {margin-right: 18px; filter: opacity(20%); cursor: url(
-  cursor.png
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
     ),
     auto;}
 #graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
-  cursor.png
+      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
     ),
     auto;}
 #didda {position: fixed; }
@@ -118,10 +121,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 @media screen and (max-width: 800px) {
       .hover-image {
     display:none;
-}
-#back {position: fixed; bottom: 35px; left: 4%; z-index:1;}
-  #forward {position: fixed; bottom: 35px; right: 4%; z-index:1;}
-}
+}}
 
 
 
@@ -194,7 +194,7 @@ position: relative;
 
 
 @media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
-@media screen and (max-width: 233px) {.info {margin-top: 7px; float: left;}}
+@media screen and (max-width: 239px) {.info {margin-top: 7px; float: left;}}
 
  * { box-sizing: border-box;
         
@@ -234,7 +234,7 @@ body {
   }
 }
 
-@media screen and (min-width: 800.5px) {
+@media screen and (min-width: 801px) {
   .row {
     display: flex;
     position: relative;
@@ -266,7 +266,7 @@ body {
   }
 }
 
-@media screen and (min-width: 800.5px) {
+@media screen and (min-width: 801px) {
   .column {
     flex: 50%;
     padding-left: 15px;
@@ -308,7 +308,7 @@ input {
     auto;
 }
 
-@media screen and (min-width: 800.5px) {
+@media screen and (min-width: 801px) {
   .sidenav {
     height: 100%;
     width: 230px;
@@ -318,7 +318,6 @@ input {
     left: 70.5px;
     overflow-x: hidden;
   }
-  {.backandforth {position: fixed; top: 620px; margin-left:87%; z-index:1;}
 }
 
 @media screen and (min-width: 801px) {
@@ -340,6 +339,8 @@ input {
     position: relative;
     padding-right: 55px;
   }
+  #back {position: fixed; bottom: 35px; left: 4%; z-index:1;}
+  #forward {position: fixed; bottom: 35px; right: 4%; z-index:1;}
 }
 @media screen and (max-width: 499px) {
   .sidenav {
