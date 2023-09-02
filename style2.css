@@ -338,7 +338,8 @@ input {
     padding-top: 14.5px;
     position: relative;
     padding-right: 55px;
-  }
+  }}
+  @media screen and (max-width: 800px) {
   #back {position: fixed; bottom: 35px; left: 4%; z-index:1;}
   #forward {position: fixed; bottom: 35px; right: 4%; z-index:1;}
 }
