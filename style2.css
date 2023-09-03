@@ -350,8 +350,10 @@ input {
   
   .embed-instagram {
     position: relative;
-  max-width: 650px;
+  max-width: 550px;
  max-height: 540px;
+ margin-left: -100px;
+ margin-right:60px;
 
 }
     
