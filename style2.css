@@ -48,7 +48,7 @@ auto;}
 @media screen and (min-width: 800.5px) {
   .backandforth {position: fixed; bottom: 35px; margin-left:87%; z-index:1;} 
   #forward {margin-left: 35px;}
-.onlyback {position: fixed; bottom: 35px;  z-index:1;} 
+.onlyback {position: fixed;  left: 4%; bottom: 35px;  z-index:1;} 
 }
 
 
