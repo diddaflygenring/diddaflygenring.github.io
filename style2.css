@@ -246,6 +246,12 @@ body {
     padding-left: 10px;
     width: 1000px;
   }
+   .content2 {
+    position: relative;
+    left: 3%;
+    padding-left: 10px;
+    width: 1000px;
+  }
 }
 @media screen and (min-width: 1600px) {
   img {
@@ -348,12 +354,16 @@ input {
     margin-right: 12%;
   }
   
-  .embed-instagram {
+
+  .content2 {
     position: relative;
-  max-width: 550px;
- max-height: 540px;
- margin-left: -100px;
- margin-right:60px;
+    padding-right: 27%;
+    float: right;
+  }
+  .embed-instagram {
+  width:500px;
+    max-height:550px;
+  
 
 }
     
@@ -400,11 +410,29 @@ input {
     top: 0px;
     position: relative;
   }
+  .content2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 10 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: 0px;
+    position: relative;
+  }
   
 }
 
 @media screen and (max-width: 499px) {
   .content {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 10 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content2 {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
