@@ -32,12 +32,21 @@ function mouseOut5() {
 function mouseOut6() {
   document.getElementById("didda").src = "https://cdn.glitch.global/5f9bba49-65f5-4276-b754-f267ac9f7add/diddaflygenring_empty.png?v=1693416237880";
 }   
-function mouseOver() {
-   document.getElementById("everything").src = "teningur_color.png";
+    
+  function mouseOver() {
+    document.getElementById("everything").src="teningur_color.png";
+  }
+  
+  function mouseOut() {
+  if(!is_clicked4) document.getElementById("everything").src="teningur_empty.png";
+  }
+    
+    function mouseOver7() {
+   document.getElementById("teningur5").src = "teningur12.png";
  }
  
- function mouseOut() {
-    document.getElementById("everything").src = "teningur_empty.png";
+ function mouseOut7() {
+    document.getElementById("teningur5").src = "teningar_empty/teningur12_empty.png";
  }
      </script>
  
@@ -55,6 +64,8 @@ function mouseOver() {
   </head>
 
   <body>
+     <input id="teningur5" width="23px" onmouseout="mouseOut7()" onmouseover="mouseOver7()" onclick="window.open('https://timarit.is/page/977574#page/n9/mode/2up')"  class="hiddendice" src="teningar_empty/teningur12_empty.png" type="image"/>
+
     <div class="sidenav">
       <p class="active">Helgi Hóseasson posters</p>
       <p class="description">
