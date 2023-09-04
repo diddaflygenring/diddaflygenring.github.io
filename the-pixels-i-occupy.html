@@ -33,10 +33,19 @@ function mouseOut6() {
   document.getElementById("didda").src = "https://cdn.glitch.global/5f9bba49-65f5-4276-b754-f267ac9f7add/diddaflygenring_empty.png?v=1693416237880";
 }    
 function mouseOver() {
-   document.getElementById("everything").src = "teningur_color.png";
+    document.getElementById("everything").src="teningur_color.png";
+  }
+  
+  function mouseOut() {
+  if(!is_clicked4) document.getElementById("everything").src="teningur_empty.png";
+  }
  }
- function mouseOut() {
-    document.getElementById("everything").src = "teningur_empty.png";
+    function mouseOver7() {
+   document.getElementById("teningur4").src = "teningur11.png";
+ }
+ 
+ function mouseOut7() {
+    document.getElementById("teningur4").src = "teningar_empty/teningur11_empty.png";
  }
      </script>
  
@@ -54,6 +63,8 @@ function mouseOver() {
   </head>
 
   <body>
+        <input  class="hiddendice" onmouseout="mouseOut7()" onmouseover="mouseOver7()" onclick="window.location.href='./get-ready-with-me';" id="teningur4" src="teningar_empty/teningur11_empty.png" type="image"/>
+   
     <div class="sidenav">
       <p class="active">The Pixels I Occupy</p>
       <p class="description">
