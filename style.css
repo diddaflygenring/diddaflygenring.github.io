@@ -210,7 +210,7 @@ position: relative;
 }
 @media screen and (max-width: 800px) {
 #ethics {
-padding-top: 48px;
+padding-top: 80px;
 position: relative;
 }
 }
@@ -482,8 +482,8 @@ margin-top: 42px;
 flex: 160%;
 max-width: 160%;
 right: 82%;
-margin-top: 55px;
 position: relative;
+  margin-top: 0px;
 }
 }
 
