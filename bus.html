@@ -33,19 +33,27 @@ function mouseOut5() {
 function mouseOut6() {
   document.getElementById("didda").src = "https://cdn.glitch.global/5f9bba49-65f5-4276-b754-f267ac9f7add/diddaflygenring_empty.png?v=1693416237880";
 } 
-function mouseOver() {
-   document.getElementById("everything").src = "teningur_color.png";
+   function mouseOver() {
+    document.getElementById("everything").src="teningur_color.png";
+  }
+  
+  function mouseOut() {
+  if(!is_clicked4) document.getElementById("everything").src="teningur_empty.png";
+  }
+    function mouseOver7() {
+   document.getElementById("teningur3").src = "teningur3.png";
  }
- function mouseOut() {
-    document.getElementById("everything").src = "teningur_empty.png";
+ 
+ function mouseOut7() {
+    document.getElementById("teningur3").src = "teningar_empty/teningur3_empty.png";
  }
      </script>
- 
- <input  onmouseout="mouseOut()" onmouseover="mouseOver()" onclick="window.location.href='./';" id="everything" class= "teningur" type="image" width="23px" src="teningur_empty.png" />
- <input  onmouseout="mouseOut1()" onmouseover="mouseOver1()" onclick="video()" id="video" class= "icon" type="image" width="23px" src="video_empty.png" />
- <input  onmouseout="mouseOut3()" onmouseover="mouseOver3()" onclick="illustrations()" id="illustrations" class= "icon" type="image" width="23px" src="illustration_empty.png" />
- <input  onmouseout="mouseOut2()" onmouseover="mouseOver2()" onclick="graphic()" id="graphic" class= "icon" type="image" width="23px" src="graphic_empty.png" />
- </div>
+
+<input  onmouseout="mouseOut()" onmouseover="mouseOver()" onclick="window.location.href='./';" id="everything" class= "teningur" type="image" width="23px" src="teningar_empty/teningur3_empty.png" />
+<input  onmouseout="mouseOut1()" onmouseover="mouseOver1()" onclick="video()" id="video" class= "icon" type="image" width="23px" src="video_empty.png" />
+<input  onmouseout="mouseOut3()" onmouseover="mouseOver3()" onclick="illustrations()" id="illustrations" class= "icon" type="image" width="23px" src="illustration_empty.png" />
+<input  onmouseout="mouseOut2()" onmouseover="mouseOver2()" onclick="graphic()" id="graphic" class= "icon" type="image" width="23px" src="graphic_empty.png" />
+</div>
 <div class="backandforth">
   <input onclick="window.location.href='./at-the-heart-of-the-dear';" type="image" id="back" title="previous" width="15px" src="back.png"/>
  <input onclick="window.location.href='./proposal-for-book-series';" type="image" id="forward" title="next" width="15px" src="forward.png"/> 
@@ -55,6 +63,8 @@ function mouseOver() {
   </head>
 
   <body>
+     <input id="teningur3" width="23px" onmouseout="mouseOut7()" onmouseover="mouseOver7()" onclick="window.location.href='./bus-video';" class="hiddendice" src="teningar_empty/teningur3_empty.png" type="image"/>
+
     <div class="sidenav">
       <p class="active">Bitte Während der Fahrt nicht mit dem 
 Fahrer Sprechen</p>
@@ -93,6 +103,7 @@ Fahrer Sprechen</p>
         class="imag"
       />
     </div>
+
     <div class="content">
       <img
         src="https://cdn.glitch.global/84acc8bb-9b82-4076-8a9c-966f89b4dfa6/bus_photographs-(2-of-3).jpg?v=1673053531689"

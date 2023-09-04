@@ -133,7 +133,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 #teningur2 { position: fixed;
  z-index: 1; width: 23px; height: 23px; top: 585px; left: 240px; }
   #teningur3 { position: fixed;
- z-index: 1; width: 23px; top: 570px; left: 50px; }
+ z-index: 1; width: 23px; bottom: 35px; left: 100px; }
 #teningur4 { position: absolute;
  z-index: 2; width: 23px; top: 850px; left: 70px; }
 #teningur5 { position: fixed;
@@ -145,8 +145,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   }
 #teningur2 { 
  z-index: 1; width: 23px; height: 23px;  position: absolute; right: 12%; } 
- #teningur4 { position: absolute;
-  z-index: 2; width: 23px; top: 880px; left: 7%; }
+#teningur3 { position: absolute;
+ z-index: 1; width: 23px; top: 1040px; left: 14%; }
+  #teningur4 { position: absolute;
+ z-index: 2; width: 23px; top: 880px; left: 7%; }
 #teningur5 { position: fixed;
  z-index: 2; width: 23px; top: 81%; right: 5%; }}
 
@@ -241,14 +243,8 @@ body {
     float: left;
     width: 1005.5px;
     
-  }
-  .embed-instagram {
-    position: relative;
-  overflow: hidden;
-  max-width: 500px;
- max-height: 600px;
-}
-}
+  }}
+
 @media screen and (min-width: 1600px) {
   .content {
     position: relative;
@@ -363,16 +359,21 @@ input {
     padding-left: 10px;
     margin-right: 12%;
   }
-  
 
-  .content2 {
+
+   .content2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 0px;
     position: relative;
-    padding-right: 27%;
-    float: right;
   }
   .embed-instagram {
-  width:500px;
-    max-height:550px;
+  padding-left: 20%;
+    padding-right: 20%;
+    max-height:600px;
   
 
 }
@@ -463,6 +464,13 @@ input {
   height: 100%;
   overflow: hidden;
   top: 35px;
+}
+.embed-youtube2 {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  top: 35px;
+  padding-left: 30%;
 }
 
 .embed-instagram {
