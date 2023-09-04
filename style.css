@@ -60,6 +60,7 @@ margin-right: 20.5px;
 padding-bottom: 100px;
 }
 
+
 img {visibility: visible;
         cursor: url(
             https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
@@ -183,7 +184,7 @@ width: 73%;
 @media screen and (max-width: 800px) {
 #bus {
 width: 70%;
-top: 50px;
+padding-top: 40px;
 position: relative;
 }
 }
@@ -209,7 +210,7 @@ position: relative;
 }
 @media screen and (max-width: 800px) {
 #ethics {
-top: 48px;
+padding-top: 48px;
 position: relative;
 }
 }
@@ -287,7 +288,7 @@ height: auto;
 }
 @media screen and (max-width: 800px) {
 #deer {
-top: 1px;
+padding-top: 60px;
 position: relative;
 }
 }
@@ -408,6 +409,8 @@ top: 30px;
 }
 }
 
+
+
 @media screen and (max-width: 600px) {
 #pixels {
 top: 30px;
@@ -453,8 +456,6 @@ padding: 0 10px;
 -ms-flex: 50%;
 flex: 50%;
 max-width: 50%;
-
-padding: 20px 0px;
 }
 }
 
