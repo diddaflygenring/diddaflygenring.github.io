@@ -1,33 +1,204 @@
 
-#graphic {margin-right: 19px;}
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
- * { box-sizing: border-box;
-        cursor: url(
-            https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/cursor%20copy%202.png?v=1693467149765
-          ),
-          auto;
-      }
-      
+#video {filter: opacity(20%); cursor: url(
+  cursor.png
+),
+auto;}
+#illustrations {filter: opacity(20%); cursor: url(
+  cursor.png
+),
+auto;}
+#graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
+  cursor.png
+),
+auto;}
+#didda {position: fixed; }
+#teningur { cursor: url(
+  hendi.png),
+auto;}
+
+
+
+
+.hiddendice:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 2px, 2px);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 1px, -1px);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, -2px, -2px);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 1px);
+}}
+
+
+
+@media screen and (min-width: 800.5px) {
+  .backandforth {position: fixed; bottom: 35px; margin-left:87%; z-index:1;} 
+  #forward {margin-left: 35px;}
+.onlyback {position: fixed;  left: 4%; bottom: 35px;  z-index:1;} 
+}
+
 
 .icon {margin-top: 21px; float: right; margin-right: 18px;}
 .icon2 {margin-top: 21px; float: left; }
 .info {margin-top: 21px; float: right; margin-right: 0px;}
 
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+   cursor: url(
+      cursor.png
+    ),
+    auto;
+}
+
+
+
+
+    .hover-image {
+  position: fixed;
+      visibility: hidden;
+  left: 315px;
+top: 100px;
+  margin-right: 5%;
+  width: auto;
+  height: auto;
+  bottom: 1px;
+       max-width: 600px;
+      
+} 
+body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
+
+@media screen and (min-width: 1200.5px) {
+  #video {margin-right: 97px; filter: opacity(20%); cursor: url(
+      cursor.png),
+    auto;}
+#illustrations {margin-right: 18px; filter: opacity(20%); cursor: url(
+      cursor.png ),
+    auto;}
+#graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
+      cursor.png),
+    auto;}
+#didda {position: fixed; }
+#teningur {right: 228.5px; cursor: url(
+      hendi.png),
+    auto;}
+
+.icon {margin-top: 21px; float: right; }
+.teningur {margin-top: 21px; position: fixed; right: 125.8px; }
+.icon2 {margin-top: 21px; float: left; }
+.info {
+  position: fixed;
+ margin-top: 21px; right: 70.5px;}
+}
+
+.hover-image img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+  }
+@media screen and (max-width: 800px) {
+      .hover-image {
+    display:none;
+}}
+ 
+
+@media screen and (min-width: 800.5px) {
+#teningur2 { position: fixed;
+ z-index: 1; width: 23px; height: 23px; top: 585px; left: 240px; }
+  #teningur3 { position: fixed;
+ z-index: 1; width: 23px; bottom: 35px; left: 100px; }
+#teningur4 { position: relative;
+ z-index: 2; width: 23px; bottom: 160px; left: 70px; }
+#teningur5 { position: fixed;
+ z-index: 2; width: 23px; bottom: 20%; right: 10%; }}
+
+@media screen and (max-width: 800px) {
+  #didda {
+    position: relative;
+  }
+#teningur2 { 
+ z-index: 1; width: 23px; height: 23px;  position: absolute; right: 12%; } 
+#teningur3 { position: absolute;
+ z-index: 1; width: 23px; top: 1040px; left: 14%; }
+  #teningur4 { position: relative;
+ z-index: 2; width: 23px; bottom: 20px; left: 12%; }
+#teningur5 { position: fixed;
+ z-index: 2; width: 23px; top: 81%; right: 5%; }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
 .titlar {
-font-family: 'Work Sans', sans-serif;
-
-font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  cursor: url(
+      hendi.png),
+    auto;
+}
+
+img {max-width: 100%;
+  height: auto;
+ 
+}
+
+
 .topnav {
-overflow: hidden;
-background-color: #ffffff;
-margin-left: 50px;
-margin-right: 50px;
+  overflow: hidden;
+  background-color: #ffffff; 
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
 }
 
 
+@media screen and (max-width: 700px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 14px 0px 0px;
+  }
+}
 @media screen and (max-width: 499px) {
 .topnav {
 position: relative;
@@ -36,484 +207,292 @@ position: relative;
 }
 }
 
-@media screen and (max-width: 1249.9px) {
-  .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
 
-@media screen and (min-width: 1250px) {
- 
-#teningur {right: 228.5px; cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-    ),
-    auto;}
-  #video {margin-right: 59.5px;}
+@media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
+@media screen and (max-width: 239px) {.info {margin-top: 7px; float: left;}}
 
-.icon {position: relative; margin-top: 21px; float: right; }
-.teningur {position: absolute; margin-top: 21px;  right: 125.8px; }
-.icon2 {margin-top: 21px; float: left; }
-.info {margin-top: 21px; right: 70.5px;}
-}
-
+ * { box-sizing: border-box;
+        cursor: url(
+            cursor.png),
+          auto;
+      }
 body {
-margin-top: 0px;
-margin-left: 20.5px;
-margin-right: 20.5px;
-padding-bottom: 100px;
+  margin-top: 0px;
+  margin-left: 20.5px;
+  margin-right: 20.5px;
+  padding-bottom: 80px;
+  cursor: url(
+            cursor.png
+          ),
+          auto;
 }
 
 
-img {visibility: visible;
-        cursor: url(
-            https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-          ),
-          auto;
-      }
+@media screen and (min-width: 1600px) {
+  .row {
+    display: flex;
+    position: relative;
+    left: 3%;
+    float: left;
+    width: 1005.5px;
+    
+  }}
 
-href {
-        cursor: url(
-            https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-          ),
-          auto;
-      }
-
-.column img {
-margin-top: 37px;
-
+@media screen and (min-width: 1600px) {
+  .content {
+    position: relative;
+    left: 3%;
+    padding-left: 10px;
+    width: 1000px;
+  }
+   .content2 {
+    position: relative;
+    left: 3%;
+    padding-left: 10px;
+    width: 1000px;
+  }
 }
+@media screen and (min-width: 1600px) {
+  img {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .row {
+    display: flex;
+    position: relative;
+    margin-left: 310px;
+    margin-right: 12%;
+    float: left;
+  }
+}
+@media screen and (max-width: 800px) {
+  .row {
+    display: flex;
+    position: relative;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 35px;
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .row {
+    display: flex;
+    position: relative;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .column {
+    flex: 50%;
+    padding-left: 15px;
+    position: relative;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    padding-left: 15px;
+    position: relative;
+  }
+}
+.imag {
+  padding-top: 15px;
+  position: relative;
+}
+.imag2 {
+  position: relative;
+  display: block;
+}
+.first {
+  padding-top: 30px;
+}
+.active {
+  font-size: 15px;
+  text-decoration: underline;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
 input {
   cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-    ),
+      hendi.png),
     auto;
 }
 
-@media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
-@media screen and (max-width: 233px) {.info {margin-top: 7px; float: left;}}
+@media screen and (min-width: 801px) {
+  .sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 59px;
+    left: 70.5px;
+    overflow-x: hidden;
 
-
-.column img:hover {
-filter: opacity(80%)
+  }
 }
 
+@media screen and (min-width: 801px) {
+  .content {
+    position: relative;
+    margin-left: 315px;
+    padding-left: 10px;
+    margin-right: 12%;
+  }
 
-#pandemic {
-display: block;
-margin-left: auto;
-margin-right: auto;
-float: block;
-position: relative;
-}
-#sund {
-display: block;
-margin-left: auto;
-margin-right: auto;
-float: block;
-position: relative;
-}
-#thesis {
-display: block;
-margin-left: auto;
-margin-right: auto;
-float: block;
-position: relative;
-}
 
-#yearbook {
-display: block;
-margin-left: auto;
-margin-right: auto;
-float: block;
-position: relative;
-}
+   .content2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 0px;
+    position: relative;
+  }
+  .embed-instagram {
+  padding-left: 20%;
+    padding-right: 20%;
+    max-height:600px;
+  
 
-#foam {
-display: block;
-margin-left: auto;
-margin-right: auto;
-float: block;
 }
+    
+   }
 
-@media screen and (min-width: 800px) {
-#foam {
-top: 10px;
+@media screen and (max-width: 800px) {
+  .sidenav {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 90%;
+    left: 50px;
+    padding-top: 14.5px;
+    position: relative;
+    padding-right: 55px;
+  }
+  #back {position: fixed; bottom: 35px; left: 4%; z-index:1;}
+  #forward {position: fixed; bottom: 35px; right: 4%; z-index:1;}
+  .embed-instagram {
+    position: relative;
+  overflow: hidden;
+  max-width: 650px;
+ max-height: 600px;
 }
+}
+@media screen and (max-width: 499px) {
+  .sidenav {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 90%;
+    left: 20px;
+    padding-top: 14.5px;
+    position: relative;
+    padding-right: 55px;
+  }
 }
 @media screen and (max-width: 800px) {
-#foam {
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#foam {
-position: relative;
-}
-}
-
-@media screen and (max-width: 600px) {
-#empty {
-display: none;
-height: 1px;
-}
-}
-
-@media screen and (min-width: 800px) {
-#specimen {
-top: 2%;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#specimen {
-top: 25px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#specimen {
-margin-top: 70px;
-position: relative;
-}
+  .content {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 10 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: 0px;
+    position: relative;
+  }
+  .content2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 10 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: 0px;
+    position: relative;
+  }
+  
 }
 
-@media screen and (min-width: 800px) {
-#bus {
-top: 31px;
-position: relative;
-width: 73%;
+@media screen and (max-width: 499px) {
+  .content {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 10 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .content2 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 10 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
 }
+.description {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  margin: 0px;
 }
-@media screen and (max-width: 800px) {
-#bus {
-width: 70%;
-padding-top: 40px;
-position: relative;
+.embed-youtube {
+  position: relative;
+  padding-bottom: 52.5%;
+  height: 100%;
+  overflow: hidden;
+  top: 35px;
 }
+.embed-youtube2 {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  top: 35px;
+  padding-left: 30%;
 }
-@media screen and (max-width: 600px) {
-#bus {
-width: 70%;
-top: 35px;
-position: relative;
+
+.embed-instagram {
+    position: relative;
+  overflow: hidden;
+  max-width: 800px;
 }
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+  border: 0;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
+
+
 @media screen and (max-width: 400px) {
-#bus {
-width: 70%;
-top: 19px;
-position: relative;
-}
-}
-@media screen and (min-width: 800px) {
-#ethics {
-top: 48px;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#ethics {
-padding-top: 80px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#ethics {
-top: 0px;
-}
-}
-@media screen and (max-width: 400px) {
-#ethics {
-top: -40px;
-}
-}
-
-@media screen and (min-width: 800px) {
-#pandemic {
-top: 90px;
-height: auto;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#pandemic {
-top: 80px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#pandemic {
-top: 60px;
-position: relative;
-}
-}
-@media screen and (min-width: 800px) {
-#gardina {
-position: relative;
-top: 100px;
-}
-}
-@media screen and (max-width: 800px) {
-#gardina {
-position: relative;
-top: 100px;
-}
-}
-@media screen and (max-width: 600px) {
-#gardina {
-position: relative;
-top: 75px;
-}
-}
-@media screen and (min-width: 800px) {
-#helgi {
-top: 110px;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#helgi {
-top: 130px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#helgi {
-position: relative;
-top: 90px;
-}
-}
-@media screen and (min-width: 800px) {
-#deer {
-top: 1px;
-height: auto;
-}
-}
-@media screen and (max-width: 800px) {
-#deer {
-padding-top: 60px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#deer {
-top: 50px;
-}
-}
-@media screen and (max-width: 400px) {
-#deer {
-top: 40px;
-}
-}
-@media screen and (min-width: 800px) {
-#prishtina {
-top: 75px;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#prishtina {
-top: 55px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#prishtina {
-top: 50px;
-}
-}
-@media screen and (min-width: 800px) {
-#sund {
-position: relative;
-top: 20px;
-}
-}
-@media screen and (max-width: 800px) {
-#sund {
-top: 20px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#sund {
-top: 10px;
-position: relative;
-}
-}
-@media screen and (min-width: 800px) {
-#thesis {
-top: 33px;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#thesis {
-top: 35px;
-}
-}
-@media screen and (max-width: 600px) {
-#thesis {
-margin-top: 25px;
-position: relative;
-}
-}
-@media screen and (max-width: 400px) {
-#thesis {
-top: 30px;
-}
-}
-@media screen and (min-width: 800px) {
-#sewn {
-top: 70px;
-position: relative;
-}
-}
-@media screen and (max-width: 800px) {
-#sewn {
-top: 70px;
-position: relative;
-}
-}
-@media screen and (max-width: 600px) {
-#sewn {
-top: 55px;
-position: relative;
-}
-}
-@media screen and (max-width: 400px) {
-#sewn {
-top: 45px;
-position: relative;
-}
-}
-
-@media screen and (min-width: 800px) {
-#yearbook {
-top: 60px;
-position: relative;
-}
-}
-
-@media screen and (max-width: 800px) {
-#yearbook {
-top: 20px;
-}
-}
-
-@media screen and (min-width: 800px) {
-#pixels {
-top: 73px;
-}
-}
-@media screen and (max-width: 800px) {
-#pixels {
-top: 30px;
-}
-}
+  .embed-youtube {
+    width: 300px;
+    height: 200px;
+  }
+  .embed-instagram {
+    position: relative;
+  overflow: hidden;
+  max-width: 650px;
+ max-height: 400px;
+}}
 
 
-
-@media screen and (max-width: 600px) {
-#pixels {
-top: 30px;
-position: relative;
-}
-}
-
-.row {
-display: -ms-flexbox; /* IE10 */
-display: flex;
--ms-flex-wrap: wrap; /* IE10 */
-flex-wrap: wrap;
-padding: 0 0px;
-}
-@media screen and (max-width: 800px) {
-.row {
-display: flex;
-position: relative;
--ms-flex: 100%;
-flex: 100%;
-max-width: 100%;
-}
-}
-
-@media screen and (max-width: 239px) 
-  {
-.row {margin-top: -50px;
-}
-}
-
-
-/* Create four equal columns that sits next to each other */
-.column {
--ms-flex: 25%; /* IE10 */
-flex: 25%;
-max-width: 25%;
-padding: 0 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-.column {
--ms-flex: 50%;
-flex: 50%;
-max-width: 50%;
-}
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.column {
--ms-flex: 100%;
-flex: 100%;
-max-width: 100%;
-}
-}
-@media screen and (min-width: 800px) {
-#biblio {
-float: right;
-position: relative;
-right: 26%;
-margin-top: 42px;
-}
-}
-
-@media screen and (max-width: 800px) {
-#biblio {
--ms-flex: 160%;
-flex: 160%;
-max-width: 160%;
-right: 82%;
-position: relative;
-  margin-top: 0px;
-}
-}
-
-@media screen and (max-width: 600px) {
-#biblio {
--ms-flex: 100%;
--webkit-flex: 100%;
-flex: 100%;
-max-width: 100%;
-padding: 10 0px;
-right: 0px;
-margin-top: 1px;
-}
-}
-@media screen and (max-width: 400px) {
-#biblio {
--ms-flex: 100%;
--webkit-flex: 100%;
-flex: 100%;
-max-width: 100%;
-padding: 10 0px;
-right: 0px;
-margin-top: -50px;
-}
-}
-
-@media screen and (min-width: 800px) {
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-}
-}
