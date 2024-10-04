@@ -117,7 +117,7 @@ float: block;
 position: relative;
 }
 
-#yearbook {
+#domesticating {
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -134,42 +134,59 @@ float: block;
 
 @media screen and (min-width: 800px) {
 #foam {
-top: 10px;
+top: 0%;
+  position: relative;
 }
 }
 @media screen and (max-width: 800px) {
 #foam {
 position: relative;
+    top: -50px;
 }
 }
 @media screen and (max-width: 600px) {
 #foam {
 position: relative;
+    top: 10px;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+#empty2 {
+display: none;
+height: 1px;
 }
 }
 
 @media screen and (max-width: 600px) {
 #empty {
 display: none;
-height: 1px;
+height: 2px;
 }
 }
 
 @media screen and (min-width: 800px) {
 #specimen {
-top: 2%;
+top: 0.5%;
 position: relative;
 }
 }
 @media screen and (max-width: 800px) {
 #specimen {
-top: 25px;
+top: 10px;
 position: relative;
 }
 }
 @media screen and (max-width: 600px) {
 #specimen {
 margin-top: 70px;
+position: relative;
+}
+}
+@media screen and (max-width: 400px) {
+#specimen {
+margin-top: 0px;
 position: relative;
 }
 }
@@ -210,7 +227,7 @@ position: relative;
 }
 @media screen and (max-width: 800px) {
 #ethics {
-padding-top: 80px;
+padding-top: 30px;
 position: relative;
 }
 }
@@ -280,6 +297,7 @@ position: relative;
 top: 90px;
 }
 }
+
 @media screen and (min-width: 800px) {
 #deer {
 top: 1px;
@@ -294,40 +312,108 @@ position: relative;
 }
 @media screen and (max-width: 600px) {
 #deer {
-top: 50px;
+top: 0px;
 }
 }
 @media screen and (max-width: 400px) {
 #deer {
-top: 40px;
+top: -30px;
+}
+}
+@media screen and (min-width: 800px) {
+#klifur {
+top: 130px;
+position: relative;
+}
+}
+@media screen and (max-width: 800px) {
+#klifur {
+top: 150px;
+position: relative;
+}
+}
+@media screen and (max-width: 600px) {
+#klifur {
+position: relative;
+top: 100px;
+  padding-bottom: 80px;
+}
+}
+
+
+#yearbook {
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: block;
+}
+
+@media screen and (min-width: 800px) {
+#yearbook {
+top: 10px;
+}
+}
+@media screen and (max-width: 800px) {
+#yearbook {
+position: relative;
+  top: 2%;
+}
+}
+@media screen and (max-width: 600px) {
+#yearbook {
+position: relative;
+  top: 30px;
+}
+}
+@media screen and (max-width: 400px) {
+#yearbook {
+position: relative;
+  top: 20px;
+}
+}
+@media screen and (min-width: 800px) {
+#popup {
+top: 100px;
+}
+}
+@media screen and (max-width: 800px) {
+#popup {
+position: relative;
+  top: 4%;
+}
+}
+@media screen and (max-width: 600px) {
+#popup {
+position: relative;
+  top: 60px;
 }
 }
 @media screen and (min-width: 800px) {
 #prishtina {
-top: 75px;
 position: relative;
 }
 }
 @media screen and (max-width: 800px) {
 #prishtina {
-top: 55px;
+top: -30px;
 position: relative;
 }
 }
 @media screen and (max-width: 600px) {
 #prishtina {
-top: 50px;
+top: 10px;
+position: relative;
 }
 }
 @media screen and (min-width: 800px) {
 #sund {
 position: relative;
-top: 20px;
+top: 1%;
 }
 }
 @media screen and (max-width: 800px) {
 #sund {
-top: 20px;
+top: -20px;
 position: relative;
 }
 }
@@ -339,13 +425,13 @@ position: relative;
 }
 @media screen and (min-width: 800px) {
 #thesis {
-top: 33px;
+top: 1%;
 position: relative;
 }
 }
 @media screen and (max-width: 800px) {
 #thesis {
-top: 35px;
+top: 0px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -361,7 +447,7 @@ top: 30px;
 }
 @media screen and (min-width: 800px) {
 #sewn {
-top: 70px;
+top: 130px;
 position: relative;
 }
 }
@@ -379,32 +465,34 @@ position: relative;
 }
 @media screen and (max-width: 400px) {
 #sewn {
-top: 45px;
+top: 50px;
 position: relative;
 }
 }
 
 @media screen and (min-width: 800px) {
-#yearbook {
+#domesticating {
+top: 40px;
+position: relative;
+}
+}
+
+@media screen and (max-width: 800px) {
+#domesticating {
 top: 60px;
-position: relative;
-}
-}
-
-@media screen and (max-width: 800px) {
-#yearbook {
-top: 20px;
 }
 }
 
 @media screen and (min-width: 800px) {
 #pixels {
-top: 73px;
+top: 60px;
+  width: 63%;
 }
 }
 @media screen and (max-width: 800px) {
 #pixels {
-top: 30px;
+top: 70px;
+   width: 70%;
 }
 }
 
@@ -412,7 +500,8 @@ top: 30px;
 
 @media screen and (max-width: 600px) {
 #pixels {
-top: 30px;
+top: 60px;
+  width: 63%;
 position: relative;
 }
 }
@@ -471,7 +560,7 @@ max-width: 100%;
 float: right;
 position: relative;
 right: 26%;
-margin-top: 42px;
+margin-top: 12%;
 }
 }
 
@@ -508,6 +597,52 @@ right: 0px;
 margin-top: -50px;
 }
 }
+
+
+@media screen and (min-width: 800px) {
+#rikk {
+float: right;
+position: relative;
+right: 26%;
+margin-top: 1%;
+}
+}
+
+@media screen and (max-width: 800px) {
+#rikk {
+-ms-flex: 160%;
+flex: 160%;
+max-width: 160%;
+right: 82%;
+position: relative;
+  margin-top: 0px;
+}
+}
+
+@media screen and (max-width: 600px) {
+#rikk {
+-ms-flex: 100%;
+-webkit-flex: 100%;
+flex: 100%;
+max-width: 100%;
+padding: 10 0px;
+right: 0px;
+margin-top: 1px;
+}
+}
+@media screen and (max-width: 400px) {
+#rikk {
+-ms-flex: 100%;
+-webkit-flex: 100%;
+flex: 100%;
+max-width: 100%;
+padding: 10 0px;
+right: 0px;
+margin-top: 0px;
+}
+}
+
+
 
 @media screen and (min-width: 800px) {
 .center {
