@@ -186,7 +186,7 @@ position: relative;
 }
 @media screen and (max-width: 600px) {
 #specimen {
-margin-top: 70px;
+margin-top: 40px;
 position: relative;
 }
 }
@@ -196,7 +196,18 @@ margin-top: 0px;
 position: relative;
 }
 }
-
+@media screen and (min-width: 600px) {
+#corpo {
+top: 30px;
+position: relative;
+}
+}
+@media screen and (max-width: 600px) {
+#corpo{
+top: 40px;
+position: relative;
+}
+}
 @media screen and (min-width: 800px) {
 #bus {
 top: 31px;
@@ -385,7 +396,7 @@ top: 100px;
 @media screen and (max-width: 800px) {
 #popup {
 position: relative;
-  top: 4%;
+  top: 60px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -647,18 +658,6 @@ right: 0px;
 margin-top: 0px;
 }
 }
-@media screen and (min-width: 600px) {
-  #corpo {
-  top: 2%;
-  position: relative;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  #corpo{
-  top: 3%;
-  position: relative;
-  }
-  }
 
 
 
