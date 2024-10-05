@@ -647,6 +647,18 @@ right: 0px;
 margin-top: 0px;
 }
 }
+@media screen and (min-width: 600px) {
+  #corpo {
+  top: 2%;
+  position: relative;
+  }
+  }
+  @media screen and (max-width: 600px) {
+  #corpo{
+  top: 3%;
+  position: relative;
+  }
+  }
 
 
 
