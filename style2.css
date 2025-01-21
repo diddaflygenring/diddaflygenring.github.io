@@ -9,7 +9,7 @@ auto;}
   cursor.png
 ),
 auto;}
-#graphic {filter: opacity(20%); margin-right: 19px; cursor: url(
+#graphic {filter: opacity(20%); cursor: url(
   cursor.png
 ),
 auto;}
@@ -189,7 +189,7 @@ position: relative;
 }
 
 
-@media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
+@media screen and (max-width: 499px) {.icon {display: none;} }
 @media screen and (max-width: 239px) {.info {margin-top: 7px; float: left;}}
 
  * { box-sizing: border-box;
