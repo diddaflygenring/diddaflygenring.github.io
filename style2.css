@@ -52,8 +52,8 @@ auto;}
 }
 
 
-.icon {margin-top: 21px; width: 30px; float: right; margin-right: 18px;}
-.info {margin-top: 21px; width: 30px; float: right; margin-right: 0px;}
+.icon {margin-top: 21px; height: 30px; float: right; margin-right: 18px;}
+.info {margin-top: 21px; height: 30px; float: right; margin-right: 0px;}
 
 .hover-title {
     display: inline;
@@ -107,12 +107,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     ),
     auto;}
 
-.icon {margin-top: 21px; float: right; }
-.teningur {margin-top: 21px; position: fixed; right: 125.8px; }
-.icon2 {margin-top: 21px; float: left; height: 35px; }
-.info {
-  position: fixed;
- margin-top: 21px; right: 70.5px;}
+
 }
 
 .hover-image img {
