@@ -112,7 +112,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .icon2 {margin-top: 21px; float: left; }
 .info {
   position: fixed;
- margin-top: 21px; right: 70.5px;}
+ margin-top: 21px; }
 }
 
 .hover-image img {
