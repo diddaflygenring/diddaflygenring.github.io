@@ -193,7 +193,7 @@ position: relative;
 
 
 @media screen and (max-width: 499px) {.icon {display: none;} }
-@media screen and (max-width: 239px) {.info {margin-top: 7px; float: left;}}
+@media screen and (max-width: 239px) }
 
  * { box-sizing: border-box;
         cursor: url(
