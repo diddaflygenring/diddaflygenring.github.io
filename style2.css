@@ -51,7 +51,7 @@ auto;}
 }
 
 
-.icon {margin-top: 21px; float: right; margin-right: 18px;}
+.icon {margin-top: 21px; float: right; margin-right: 18px; width: 30px; }
 
 .hover-title {
     display: inline;
@@ -254,7 +254,7 @@ body {
   }
 }
 @media screen and (min-width: 1600px) {
-  img {
+  .column img {
     width: auto;
   }
 
