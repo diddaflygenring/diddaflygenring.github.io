@@ -1,5 +1,4 @@
 
-#graphic {margin-right: 19px;}
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
@@ -10,10 +9,8 @@
           auto;
       }
       
-
-.icon {margin-top: 21px; float: right; margin-right: 18px;}
-.icon2 {margin-top: 21px; float: left; }
-.info {margin-top: 21px; float: right; margin-right: 0px;}
+.icon {margin-top: 15px; height: 39px; float: right; margin-right: 15px;}
+.icon2 {margin-top: 13px; float: left; height: 50px;}
 
 .titlar {
 font-family: 'Work Sans', sans-serif;
@@ -36,22 +33,6 @@ position: relative;
 }
 }
 
-@media screen and (max-width: 1249.9px) {
-  .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
-
-@media screen and (min-width: 1250px) {
- 
-#teningur {right: 228.5px; cursor: url(
-      https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
-    ),
-    auto;}
-  #video {margin-right: 59.5px;}
-
-.icon {position: relative; margin-top: 21px; float: right; }
-.teningur {position: absolute; margin-top: 21px;  right: 125.8px; }
-.icon2 {margin-top: 21px; float: left; }
-.info {margin-top: 21px; right: 70.5px;}
-}
 
 body {
 margin-top: 0px;
@@ -92,7 +73,7 @@ input {
     auto;
 }
 
-@media screen and (max-width: 499px) {.icon {display: none;} .teningur {display: none;}}
+@media screen and (max-width: 530px) {.icon {display: none;} .teningur {display: none;}}
 @media screen and (max-width: 233px) {.info {margin-top: 7px; float: left;}}
 
 
