@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+.icon {margin-top: 15px; height: 30px; float: right; margin-right: 15px;}
+.icon2 {margin-top: 13px; float: left; height: 50px;}
+
 #video {filter: opacity(20%); cursor: url(
   cursor.png
 ),
@@ -52,8 +55,7 @@ auto;}
 }
 
 
-.icon {margin-top: 15px; height: 30px; float: right; margin-right: 15px;}
-.icon2 {margin-top: 13px; float: left; height: 50px;}
+
 
 
 .hover-title {
