@@ -85,8 +85,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   
 }
 
-@media screen and (max-width: 1200px) {
-  .teningur {margin-top: 21px; float: right; margin-right: 18px;}}
 
 
 .hover-image img {
