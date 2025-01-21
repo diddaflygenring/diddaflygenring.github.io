@@ -9,7 +9,7 @@
           auto;
       }
       
-.icon {margin-top: 15px; height: 39px; float: right; margin-right: 15px;}
+.icon {margin-top: 15px; height: 35px; float: right; margin-right: 15px;}
 .icon2 {margin-top: 13px; float: left; height: 50px;}
 
 .titlar {
@@ -74,7 +74,6 @@ input {
 }
 
 @media screen and (max-width: 530px) {.icon {display: none;} .teningur {display: none;}}
-@media screen and (max-width: 233px) {.info {margin-top: 7px; float: left;}}
 
 
 .column img:hover {
