@@ -192,7 +192,11 @@ position: relative;
 }
 
 
-@media screen and (max-width: 499px) {.icon {display: none;} }
+@media screen and (max-width: 530px) {#everything {display: none; } #illustrations {display: none; }
+  #graphic {display: none; }
+  #video {display: none; }}
+
+@media screen and (max-width: 200px) {.icon {display: none; } }
 
  * { box-sizing: border-box;
         cursor: url(
