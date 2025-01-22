@@ -18,8 +18,12 @@ auto;}
 ),}
 
 @media screen and (min-width: 1300px) {#didda {position: fixed; }
-#everything}
+}
 
+img {max-width: 100%;
+  height: auto;
+ 
+}
 
 .hiddendice:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -52,7 +56,7 @@ auto;}
 
 
 .icon {margin-top: 21px; float: right; margin-right: 18px; width: 30px; }
-.icon2 {margin-top: 16px; float: left; height: 44px; }
+.icon2 {margin-top: 21px; float: left; height: 40px; }
 
 .hover-title {
     display: inline;
@@ -149,10 +153,7 @@ a:hover {
     auto;
 }
 
-img {max-width: 100%;
-  height: auto;
- 
-}
+
 
 video {
     max-width: 100%;
@@ -165,6 +166,7 @@ video {
   background-color: #ffffff; 
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 30px;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
@@ -321,7 +323,7 @@ input {
     width: 230px;
     position: fixed;
     z-index: 1;
-    top: 59px;
+ 
     left: 70.5px;
     overflow-x: hidden;
 
