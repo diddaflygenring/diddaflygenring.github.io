@@ -13,11 +13,12 @@ auto;}
   cursor.png
 ),
 auto;}
-#teningur { cursor: url(
+#everything { cursor: url(
   https://cdn.glitch.global/835d1b30-1cce-4a66-931a-90e7bbb47e67/hendi%20copy%202.png?v=1693467150162
 ),}
 
-@media screen and (min-width: 1300px) {#didda {position: fixed; }}
+@media screen and (min-width: 1300px) {#didda {position: fixed; }
+#everything}
 
 
 .hiddendice:hover {
@@ -51,7 +52,7 @@ auto;}
 
 
 .icon {margin-top: 21px; float: right; margin-right: 18px; width: 30px; }
-.icon2 {margin-top: 21px; float: left; height: 30px; }
+.icon2 {margin-top: 21px; float: left; height: 40px; }
 
 .hover-title {
     display: inline;
