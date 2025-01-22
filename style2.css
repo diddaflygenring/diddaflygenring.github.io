@@ -166,7 +166,7 @@ video {
   background-color: #ffffff; 
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 35px;
+  margin-bottom: 29px;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
@@ -325,6 +325,7 @@ input {
   .sidenav {
     height: 100%;
     width: 230px;
+    margin-top: 3px;
     position: fixed;
     z-index: 1;
  
