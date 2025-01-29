@@ -14,7 +14,7 @@ auto;}
 ),
 auto;}
 #everything { cursor: url(
-  cursor2.png
+  cursor.png
 ),}
 
 @media screen and (min-width: 1300px) {#didda {position: fixed; }
@@ -147,10 +147,7 @@ a:hover {
   color: black;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
-  cursor: url(
-    cursor2.png
-    ),
-    auto;
+ 
 }
 
 
@@ -314,12 +311,7 @@ body {
 
 
 
-input {
-  cursor: url(
-    cursor2.png
-    ),
-    auto;
-}
+
 
 @media screen and (min-width: 801px) {
   .sidenav {
