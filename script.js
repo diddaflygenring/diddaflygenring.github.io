@@ -27,4 +27,19 @@ function four() {
     elements[i].style.flex = "25%";
   }
 }
+function mouseOver22() {
+  document.getElementById("forward").src = "https://cdn.glitch.global/3d39eb03-fe83-467a-a934-5f464b79bc42/forward_color.png?v=1738187662219";
+ }
+ 
+ function mouseOut22() {
+   document.getElementById("forward").src = "https://cdn.glitch.global/3d39eb03-fe83-467a-a934-5f464b79bc42/forward_empty.png?v=1738187665094";
+ }
+ 
+ function mouseOverback() {
+  document.getElementById("back").src = "https://cdn.glitch.global/3d39eb03-fe83-467a-a934-5f464b79bc42/forward_color.png?v=1738187662219";
+ }
+ 
+ function mouseOutback() {
+   document.getElementById("back").src = "https://cdn.glitch.global/3d39eb03-fe83-467a-a934-5f464b79bc42/forward_empty.png?v=1738187665094";
+ }
 </script>
