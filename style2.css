@@ -13,7 +13,7 @@ auto;}
   cursor.png
 ),
 auto;
-margin-right: 6px;}
+margin-right: 3px;}
 #everything { cursor: url(
   cursor.png
 ),}
@@ -58,7 +58,7 @@ img {max-width: 100%;
 }
 
 
-.icon {margin-top: 21px; float: right; margin-right: 9px; width: 30px; }
+.icon {margin-top: 21px; float: right; margin-right: 6px; width: 30px; }
 .icon2 {margin-top: 16px; float: left; height: 44px; }
 
 .hover-title {
@@ -109,26 +109,26 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 @media screen and (min-width: 800.5px) {
 #teningur2 { position: fixed;
- z-index: 1; width: 23px; height: 23px; top: 585px; left: 240px; }
+ z-index: 1;  top: 585px; left: 240px; }
   #teningur3 { position: fixed;
- z-index: 1; width: 23px; bottom: 35px; left: 100px; }
+ z-index: 1;  bottom: 35px; left: 100px; }
 #teningur4 { position: relative;
- z-index: 2; width: 23px; bottom: 160px; left: 70px; }
+ z-index: 2;  bottom: 160px; left: 70px; }
 #teningur5 { position: fixed;
- z-index: 2; width: 23px; bottom: 20%; right: 10%; }}
+ z-index: 2;  bottom: 20%; right: 10%; }}
 
 @media screen and (max-width: 800px) {
   #didda {
     position: relative;
   }
 #teningur2 { 
- z-index: 1; width: 23px; height: 23px;  position: absolute; right: 12%; } 
+ z-index: 1;  position: absolute; right: 12%; } 
 #teningur3 { position: absolute;
- z-index: 1; width: 23px; top: 1040px; left: 14%; }
+ z-index: 1; top: 1040px; left: 14%; }
   #teningur4 { position: relative;
- z-index: 2; width: 23px; bottom: 20px; left: 12%; }
+ z-index: 2;  bottom: 20px; left: 12%; }
 #teningur5 { position: fixed;
- z-index: 2; width: 23px; top: 81%; right: 5%; }}
+ z-index: 2; top: 81%; right: 5%; }}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
