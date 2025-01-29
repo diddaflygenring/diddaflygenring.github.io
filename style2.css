@@ -1,15 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-#video {filter: opacity(20%); cursor: url(
+#video { cursor: url(
   cursor.png
 ),
 auto;}
-#illustrations {filter: opacity(20%); cursor: url(
+#illustrations {cursor: url(
   cursor.png
 ),
 auto;}
-#graphic {filter: opacity(20%); cursor: url(
+#graphic { cursor: url(
   cursor.png
 ),
 auto;}
