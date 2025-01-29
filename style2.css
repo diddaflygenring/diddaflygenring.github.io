@@ -13,7 +13,7 @@ auto;}
   cursor.png
 ),
 auto;
-margin-right: 9px;}
+margin-right: 6px;}
 #everything { cursor: url(
   cursor.png
 ),}
@@ -58,7 +58,7 @@ img {max-width: 100%;
 }
 
 
-.icon {margin-top: 21px; float: right; margin-right: 13px; width: 30px; }
+.icon {margin-top: 21px; float: right; margin-right: 9px; width: 30px; }
 .icon2 {margin-top: 16px; float: left; height: 44px; }
 
 .hover-title {
