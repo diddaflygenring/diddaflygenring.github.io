@@ -11,6 +11,8 @@
       
 .icon {margin-top: 21px; width: 30px; float: right; margin-right: 13px;}
 .icon2 {margin-top: 18px; float: left; height: 40px;}
+#graphic { 
+margin-right: 9px;}
 
 .titlar {
 font-family: 'Work Sans', sans-serif;
@@ -56,7 +58,7 @@ margin-top: 37px;
 }
 
 
-@media screen and (max-width: 530px) {#everything {display: none; } #illustrations {display: none; }
+@media screen and (max-width: 500px) {#everything {display: none; } #illustrations {display: none; }
   #graphic {display: none; }
   #video {display: none; }}
 

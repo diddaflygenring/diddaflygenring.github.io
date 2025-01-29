@@ -12,7 +12,8 @@ auto;}
 #graphic { cursor: url(
   cursor.png
 ),
-auto;}
+auto;
+margin-right: 9px;}
 #everything { cursor: url(
   cursor.png
 ),}
@@ -163,7 +164,7 @@ video {
   background-color: #ffffff; 
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 29px;
+  margin-bottom: 18px;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
@@ -189,7 +190,7 @@ position: relative;
 }
 
 
-@media screen and (max-width: 530px) {#everything {display: none; } #illustrations {display: none; }
+@media screen and (max-width:500px) {#everything {display: none; } #illustrations {display: none; }
   #graphic {display: none; }
   #video {display: none; }}
 
