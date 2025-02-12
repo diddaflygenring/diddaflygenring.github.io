@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+@font-face {
+  font-family: 'Karrik-Regular', sans-serif;
+ src: url(Karrik-Regular.ttf);
+}
+
  * { box-sizing: border-box;
         cursor: url(
           cursor.png
@@ -15,7 +20,7 @@
 margin-right: 3px;}
 
 .titlar {
-font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
 
 font-size: 15px;
 }

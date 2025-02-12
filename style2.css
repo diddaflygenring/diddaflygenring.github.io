@@ -135,21 +135,31 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
+@font-face {
+  font-family: 'Karrik-Regular', sans-serif;
+ src: url(Karrik-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Karrik-Regular', italic;
+ src: url(Karrik-Regular.ttf);
+}
+
 .titlar {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
   font-size: 15px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
   font-size: 15px;
 }
 a:hover {
   text-decoration: underline;
   color: black;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
   font-size: 15px;
  
 }
@@ -168,7 +178,7 @@ video {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 18px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
   font-size: 15px;
 }
 
@@ -305,12 +315,12 @@ body {
   display: block;
 }
 .first {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .active {
   font-size: 15px;
   text-decoration: underline;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
 }
 
 
@@ -434,7 +444,7 @@ body {
   
 }
 .description {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Karrik-Regular', sans-serif;
   font-size: 15px;
   margin: 0px;
 }
