@@ -142,7 +142,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 @font-face {
   font-family: 'Karrik-Regular', italic;
- src: url(Karrik-Regular.ttf);
+ src: url(Karrik-Italic.ttf);
 }
 
 .titlar {
