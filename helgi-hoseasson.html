@@ -9,7 +9,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
       </style>
    <link rel="stylesheet" href="style2.css">
-   <link rel="icon" type="image/png" href="teningur12.png" />
+   <link rel="icon" type="image/png" href="teningur5.png" />
    <title>Helgi Hóseasson posters | didda</title>
   </head>
   <head>
@@ -40,6 +40,13 @@ function mouseOut6() {
   function mouseOut() {
   if(!is_clicked4) document.getElementById("everything").src="teningur_empty.png";
   }
+  function teningur5over() {
+ document.getElementById("teningur1").src = "teningur5.png";
+}
+
+function teningur5out() {
+  document.getElementById("teningur1").src = "teningur5_empty.png";
+}
     
    
      </script>
@@ -58,7 +65,7 @@ function mouseOut6() {
   </head>
 
   <body>
-     <input id="teningur5"  onclick="window.open('https://timarit.is/page/977574#page/n9/mode/2up')"  class="hiddendice" src="teningur12.png" type="image"/>
+     <input id="teningur5" onmouseout="teningur5out()" onmouseover="teningur5over()"  onclick="window.open('https://timarit.is/page/977574#page/n9/mode/2up')"  class="hiddendice" src="teningur5_empty.png" type="image"/>
 
     <div class="sidenav">
       <p class="active">Helgi Hóseasson posters</p>

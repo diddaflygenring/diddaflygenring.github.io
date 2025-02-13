@@ -8,7 +8,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
       </style>
      <link rel="stylesheet" href="style2.css">
-     <link rel="icon" type="image/png" href="teningur11.png" />
+     <link rel="icon" type="image/png" href="teningur4.png" />
      <title>The Pixels I Occupy | didda</title>
   </head>
 
@@ -39,6 +39,13 @@ function mouseOver() {
   function mouseOut() {
   document.getElementById("everything").src = "teningur_empty.png";
   }
+  function teningur4over() {
+ document.getElementById("teningur1").src = "teningur4.png";
+}
+
+function teningur4out() {
+  document.getElementById("teningur1").src = "teningur4_empty.png";
+}
  
     
      </script>
@@ -159,7 +166,7 @@ function mouseOver() {
         class="imag"
       />
     </div>
-    <input  class="hiddendice"  onclick="window.location.href='./get-ready-with-me';" id="teningur4" src="teningur11.png" type="image"/>
+    <input  class="hiddendice"  onmouseout="teningur4out()" onmouseover="teningur4over()" onclick="window.location.href='./get-ready-with-me';" id="teningur4" src="teningur4_empty.png" type="image"/>
    
   </body>
 </html>
