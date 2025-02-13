@@ -100,7 +100,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   #didda {
     position: relative;
   }
-#teningur2 { 
+#teningur1 { 
  z-index: 1;  position: absolute; right: 12%; } 
 #teningur3 { position: absolute;
  z-index: 1; top: 1040px; left: 14%; }
