@@ -137,8 +137,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 @font-face {
   font-family: "Karrik-Regular", sans-serif;
- src: url("Karrik-Regular.woff") format("woff"),
- src: url("Karrik-Regular.ttf") format("truetype");
+ src: url(Karrik-Regular.woff) format("woff"),
+ url(Karrik-Regular.ttf) format("truetype");
 }
 
 .titlar {
