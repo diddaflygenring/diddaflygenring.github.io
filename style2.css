@@ -26,7 +26,7 @@ img {max-width: 100%;
  
 }
 .hiddendice {
-  width: 30px;
+  width: 33px;
 }
 
 
@@ -116,6 +116,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 @font-face {
   font-family: "Karrik-Regular", sans-serif;
  src: url(Karrik-Regular.woff) format("woff"),
+ url(Karrik-Regular.woff) format("woff2"),
  url(Karrik-Regular.ttf) format("truetype");
 }
 
