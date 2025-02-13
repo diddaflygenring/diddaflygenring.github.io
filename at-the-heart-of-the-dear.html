@@ -39,6 +39,13 @@ function mouseOver() {
  function mouseOut() {
     document.getElementById("everything").src = "teningur_empty.png";
  }
+ function teningur1over() {
+ document.getElementById("teningur1").src = "teningur1.png";
+}
+
+function teningur1out() {
+  document.getElementById("teningur1").src = "teningur1_empty.png";
+}
  
      </script>
  
@@ -82,7 +89,7 @@ function mouseOver() {
           52 pages <br />
           </p>
       <div style="height: 4px"></div>
-      <input  class="hiddendice"  onclick="window.location.href='./deardeer';" id="teningur2" src="teningur13.png" type="image"/>
+      <input  class="hiddendice"  onmouseout="teningur1out()" onmouseover="teningur1over()"onclick="window.location.href='./deardeer';" id="teningur1" src="teningur1_empty.png" type="image"/>
    
       <p class="description">
         2022
