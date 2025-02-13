@@ -140,11 +140,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
  src: url(https://cdn.glitch.global/3d39eb03-fe83-467a-a934-5f464b79bc42/Karrik-Regular.ttf?v=1739366223671);
 }
 
-@font-face {
-  font-family: 'Karrik-Regular', italic;
- src: url(Karrik-Italic.ttf);
-}
-
 .titlar {
   font-family: 'Karrik-Regular', sans-serif;
   font-size: 15px;
