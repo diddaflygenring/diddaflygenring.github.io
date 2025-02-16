@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Karrik';
+    src: url('Karrik-Regular.eot');
+    src: url('Karrik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Karrik-Regular.svg#Karrik-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

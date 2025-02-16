@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
 #video { cursor: url(
   cursor.png
 ),
@@ -113,11 +111,28 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
+
 @font-face {
   font-family: "Karrik-Regular", sans-serif;
- src: url(Karrik-Regular.woff) format("woff"),
- url(Karrik-Regular.woff) format("woff2"),
- url(Karrik-Regular.ttf) format("truetype");
+  src: url('Karrik-Regular.eot');
+  src: url('Karrik-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Karrik-Regular.svg#Karrik-Regular') format('svg'),
+      url('Karrik-Regular.woff') format('woff'),
+ url('Karrik-Regular.woff') format('woff2'),
+ url('Karrik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Karrik-Regular';
+  src: url('Karrik-Italic.eot');
+  src: url('Karrik-Italic.eot?#iefix') format('embedded-opentype'),
+      url('Karrik-Italic.svg#Karrik-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 .titlar {
