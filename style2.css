@@ -118,7 +118,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   src: url('Karrik-Regular.eot?#iefix') format('embedded-opentype'),
       url('Karrik-Regular.svg#Karrik-Regular') format('svg');
   font-weight: normal;
-  font-style: normal;
+  font-style: sans-serif;
   font-display: swap;
 }
 
