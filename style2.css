@@ -107,9 +107,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 #teningur5 { position: fixed;
  z-index: 2; top: 81%; right: 5%; }}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
 
 @font-face {
@@ -121,7 +118,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   font-style: sans-serif;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'Karrik-Regular';
   src: url('Karrik-Italic.eot');
@@ -131,6 +127,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   font-style: italic;
   font-display: swap;
 }
+
+
 
 .titlar {
   font-family: 'Karrik-Regular';
