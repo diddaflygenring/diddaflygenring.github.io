@@ -118,7 +118,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   src: url('Karrik-Regular.eot?#iefix') format('embedded-opentype'),
       url('Karrik-Regular.svg#Karrik-Regular') format('svg');
   font-weight: normal;
-  font-style: sans-serif;
   font-display: swap;
 }
 
@@ -133,20 +132,20 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }
 
 .titlar {
-  font-family: 'Karrik-Regular', sans-serif;
+  font-family: 'Karrik-Regular';
   font-size: 15px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-family: 'Karrik-Regular', sans-serif;
+  font-family: 'Karrik-Regular';
   font-size: 15px;
 }
 a:hover {
   text-decoration: underline;
   color: black;
-  font-family: 'Karrik-Regular', sans-serif;
+  font-family: 'Karrik-Regular';
   font-size: 15px;
  
 }
@@ -165,7 +164,7 @@ video {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 18px;
-  font-family: 'Karrik-Regular', sans-serif;
+  font-family: 'Karrik-Regular';
   font-size: 15px;
 }
 
@@ -307,7 +306,7 @@ body {
 .active {
   font-size: 15px;
   text-decoration: underline;
-  font-family: 'Karrik-Regular', sans-serif;
+  font-family: 'Karrik-Regular';
 }
 
 
@@ -431,7 +430,7 @@ body {
   
 }
 .description {
-  font-family: 'Karrik-Regular', sans-serif;
+  font-family: 'Karrik-Regular';
   font-size: 15px;
   margin: 0px;
 }
