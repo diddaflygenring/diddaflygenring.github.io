@@ -23,15 +23,17 @@ img {max-width: 100%;
   height: auto;
  
 }
-.hiddendice {
-  width: 36px;
-}
+
 
 
 @media screen and (min-width: 800.5px) {
   .backandforth {visibility: hidden; position: fixed; bottom: 35px; margin-left:87%; z-index:1;} 
   #forward {visibility: hidden; margin-left: 35px;}
 .onlyback {position: fixed;  left: 4%; bottom: 35px;  z-index:1;} 
+.hiddendice {
+  width: 36px;
+  visibility: visible;
+}
 }
 
 
