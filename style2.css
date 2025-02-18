@@ -84,13 +84,12 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }}
  
 
-@media screen and (min-width: 800.5px) {
-.hiddendice {visibility: hidden;}}
 
 @media screen and (max-width: 800px) {
   #didda {
     position: relative;
   }
+  .hiddendice {visibility: hidden;}
 #teningur1 { 
  z-index: 1;  position: absolute; right: 12%; } 
 #teningur3 { position: absolute;
