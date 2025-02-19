@@ -98,8 +98,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
  z-index: 1; top: 1040px; left: 14%; }
   #teningur4 { position: relative;
  z-index: 2;  bottom: 20px; right: 12%; }
-#teningur5 { position: fixed;
- z-index: 2; bottom:30px ; right: 20%; }}
+#teningur5 { position: relative;
+ z-index: 2; bottom: 30px ; right: 20%; }}
 
 
 
