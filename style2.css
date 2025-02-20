@@ -37,11 +37,11 @@ img {max-width: 100%;
 #teningur2 { position: fixed;
   z-index: 1;  top: 585px; left: 240px; }
    #teningur3 { position: fixed;
-  z-index: 1; width: 23px; bottom: 35px; left: 100px; }
+  z-index: 1; bottom: 35px; left: 100px; }
  #teningur4 { position: relative;
-  z-index: 2; width: 23px; bottom: 160px; left: 70px; }
+  z-index: 2;  bottom: 160px; left: 70px; }
  #teningur5 { position: fixed;
-  z-index: 2; width: 23px; bottom: 20%; right: 10%; }
+  z-index: 2; bottom: 20%; right: 10%; }
 }
 
 
